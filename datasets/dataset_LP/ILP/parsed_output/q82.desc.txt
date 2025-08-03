@@ -1,0 +1,16 @@
+A mall buys two types of hand sanitizer machines, a motion activated one and a manual one. The motion activated one can deliver 50 drops per minute and consumes 30 kWh. The manual one can deliver 75 drops per minute and consumes 20 kWh. Since the motion activated one is more hygienic, at most 40% of the machines can be manual. In addition, at least 3 should be motion activated. If the mall must be able to deliver at least 1000 drops per minute and can use at most 500 kWh per minute, how many of each machine should they buy to minimize the total number of machines?
+
+[ Objective Declaration ]
+MINIMIZE, 1*motion_activated + 1*manual
+
+[ const_type: ratio ]
+manual <= 0.4 * (manual + motion_activated)
+
+[ const_type: lowerbound ]
+motion_activated >= 3
+
+[ const_type: linear ]
+50*motion_activated + 75*manual >= 1000
+
+[ const_type: linear ]
+30*motion_activated + 20*manual <= 500

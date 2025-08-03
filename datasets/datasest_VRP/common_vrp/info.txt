@@ -1,0 +1,7 @@
+CVRP Objective Instruction
+
+Design a set of delivery routes for a fixed number of vehicles with limited capacity, such that:
+- Each route starts and ends at the depot.
+- Every customer is visited exactly once by exactly one vehicle.
+- The total demand served by each vehicle does not exceed its capacity.
+- The sum of the distances (or travel cost) across all routes is minimized.

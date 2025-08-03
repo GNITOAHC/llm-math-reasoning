@@ -1,0 +1,92 @@
+[METADATA]
+File: E200-17c
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 17
+Total Cost: 1311.348
+Depot: Node 200
+
+[ROUTES]
+Route 1:
+Total Demand: 200
+Cost: 103.0181
+Customers: [158, 184, 190, 41, 90, 143, 89, 137, 142, 114, 156, 93, 86]
+
+Route 2:
+Total Demand: 195
+Cost: 81.3931
+Customers: [175, 176, 8, 102, 178, 78, 19, 70, 128, 123, 13, 83, 153, 111]
+
+Route 3:
+Total Demand: 184
+Cost: 76.6061
+Customers: [66, 196, 191, 1, 136, 197, 199, 43, 42, 68, 113, 91, 141, 22, 186]
+
+Route 4:
+Total Demand: 197
+Cost: 97.4098
+Customers: [57, 189, 131, 80, 10, 77, 165, 38, 119, 129, 169, 50, 168]
+
+Route 5:
+Total Demand: 200
+Cost: 81.8179
+Customers: [95, 97, 161, 9, 110, 25, 56, 118, 72, 147, 181]
+
+Route 6:
+Total Demand: 196
+Cost: 68.9031
+Customers: [26, 100, 150, 108, 69, 180, 132, 7, 51, 149, 60]
+
+Route 7:
+Total Demand: 200
+Cost: 65.4289
+Customers: [157, 2, 101, 28, 64, 94, 140, 121, 82, 173, 21, 172, 139]
+
+Route 8:
+Total Demand: 170
+Cost: 35.6684
+Customers: [112, 194, 193, 33, 96, 61, 6]
+
+Route 9:
+Total Demand: 193
+Cost: 79.6494
+Customers: [16, 67, 159, 182, 49, 74, 144, 145, 24, 107, 63, 117]
+
+Route 10:
+Total Demand: 197
+Cost: 112.6049
+Customers: [81, 71, 52, 11, 170, 164, 85, 134, 84, 14, 133, 177, 35]
+
+Route 11:
+Total Demand: 197
+Cost: 73.4606
+Customers: [54, 30, 48, 47, 155, 36, 122, 174, 171, 120, 152]
+
+Route 12:
+Total Demand: 197
+Cost: 53.4782
+Customers: [125, 98, 45, 58, 27, 179, 99, 167, 65, 46, 34]
+
+Route 13:
+Total Demand: 61
+Cost: 20.7967
+Customers: [127, 87, 4]
+
+Route 14:
+Total Demand: 199
+Cost: 96.1621
+Customers: [29, 79, 15, 154, 124, 20, 166, 138, 37, 88, 103, 5, 59]
+
+Route 15:
+Total Demand: 200
+Cost: 127.4971
+Customers: [106, 73, 18, 146, 135, 92, 148, 163, 31, 162, 75, 39, 109, 12]
+
+Route 16:
+Total Demand: 200
+Cost: 83.8859
+Customers: [188, 104, 183, 23, 116, 62, 185, 115, 160, 192, 198, 53, 195, 105]
+
+Route 17:
+Total Demand: 200
+Cost: 53.5686
+Customers: [126, 17, 76, 40, 130, 187, 32, 44, 55, 3, 151]

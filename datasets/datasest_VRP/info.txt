@@ -1,0 +1,12 @@
+Design a set of delivery routes for a fixed number of vehicles with limited capacity, such that:
+
+1. Each route starts and ends at the depot.
+2. Every customer is visited exactly once by exactly one vehicle.
+3. The total demand served by each vehicle does not exceed its capacity.
+4. The sum of the distances (or travel cost) across all routes is minimized.
+
+Objective: Minimize total route cost
+Subject to:
+  - Each customer visited once
+  - Each route starts and ends at depot
+  - Total demand on each route ≤ vehicle capacity

@@ -1,0 +1,13 @@
+Mr. Roberts want to invest in the telecom and healthcare industries. He has $100000 to invest. He has decided that the amount invested in telecom be at least three times as much as the amount invested in healthcare. But the money invested in telecom must be at most $70000. If investments in telecom earn 3% and investments in healthcare earn 1%, how much should Mr. Roberts invest in each to maximize profit?
+
+[ Objective Declaration ]
+MAXIMIZE, profit = 0.03*telecom + 0.01*healthcare
+
+[ const_type: sum ]
+telecom + healthcare <= 100000
+
+[ const_type: xby ]
+telecom >= 3 * healthcare
+
+[ const_type: upperbound ]
+telecom <= 70000

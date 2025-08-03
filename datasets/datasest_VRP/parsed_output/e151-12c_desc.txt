@@ -1,0 +1,166 @@
+[METADATA]
+File: E151-12c
+COMMENT: Christofides, Mingozzi and Toth, 1979
+
+[VRP_DATA_INFO]
+Type: CVRP (Capacitated Vehicle Routing Problem)
+Dimension: 151
+Distance Metric: Euclidean (2D)
+Vehicle Capacity: 200
+Number of Vehicles: 12
+
+[Depot]
+Node 1: Coordinates: (35, 35), Demand: 0
+
+[Customer Nodes]
+# Format: Node ID: Coordinates (x, y), Demand
+2: (37, 52), Demand: 7
+3: (49, 49), Demand: 30
+4: (52, 64), Demand: 16
+5: (20, 26), Demand: 9
+6: (40, 30), Demand: 21
+7: (21, 47), Demand: 15
+8: (17, 63), Demand: 19
+9: (31, 62), Demand: 23
+10: (52, 33), Demand: 11
+11: (51, 21), Demand: 5
+12: (42, 41), Demand: 19
+13: (31, 32), Demand: 29
+14: (5, 25), Demand: 23
+15: (12, 42), Demand: 21
+16: (36, 16), Demand: 10
+17: (52, 41), Demand: 15
+18: (27, 23), Demand: 3
+19: (17, 33), Demand: 41
+20: (13, 13), Demand: 9
+21: (57, 58), Demand: 28
+22: (62, 42), Demand: 8
+23: (42, 57), Demand: 8
+24: (16, 57), Demand: 16
+25: (8, 52), Demand: 10
+26: (7, 38), Demand: 28
+27: (27, 68), Demand: 7
+28: (30, 48), Demand: 15
+29: (43, 67), Demand: 14
+30: (58, 48), Demand: 6
+31: (58, 27), Demand: 19
+32: (37, 69), Demand: 11
+33: (38, 46), Demand: 12
+34: (46, 10), Demand: 23
+35: (61, 33), Demand: 26
+36: (62, 63), Demand: 17
+37: (63, 69), Demand: 6
+38: (32, 22), Demand: 9
+39: (45, 35), Demand: 15
+40: (59, 15), Demand: 14
+41: (5, 6), Demand: 7
+42: (10, 17), Demand: 27
+43: (21, 10), Demand: 13
+44: (5, 64), Demand: 11
+45: (30, 15), Demand: 16
+46: (39, 10), Demand: 10
+47: (32, 39), Demand: 5
+48: (25, 32), Demand: 25
+49: (25, 55), Demand: 17
+50: (48, 28), Demand: 18
+51: (56, 37), Demand: 10
+52: (41, 49), Demand: 10
+53: (35, 17), Demand: 7
+54: (55, 45), Demand: 13
+55: (55, 20), Demand: 19
+56: (15, 30), Demand: 26
+57: (25, 30), Demand: 3
+58: (20, 50), Demand: 5
+59: (10, 43), Demand: 9
+60: (55, 60), Demand: 16
+61: (30, 60), Demand: 16
+62: (20, 65), Demand: 12
+63: (50, 35), Demand: 19
+64: (30, 25), Demand: 23
+65: (15, 10), Demand: 20
+66: (30, 5), Demand: 8
+67: (10, 20), Demand: 19
+68: (5, 30), Demand: 2
+69: (20, 40), Demand: 12
+70: (15, 60), Demand: 17
+71: (45, 65), Demand: 9
+72: (45, 20), Demand: 11
+73: (45, 10), Demand: 18
+74: (55, 5), Demand: 29
+75: (65, 35), Demand: 3
+76: (65, 20), Demand: 6
+77: (45, 30), Demand: 17
+78: (35, 40), Demand: 16
+79: (41, 37), Demand: 16
+80: (64, 42), Demand: 9
+81: (40, 60), Demand: 21
+82: (31, 52), Demand: 27
+83: (35, 69), Demand: 23
+84: (53, 52), Demand: 11
+85: (65, 55), Demand: 14
+86: (63, 65), Demand: 8
+87: (2, 60), Demand: 5
+88: (20, 20), Demand: 8
+89: (5, 5), Demand: 16
+90: (60, 12), Demand: 31
+91: (40, 25), Demand: 9
+92: (42, 7), Demand: 5
+93: (24, 12), Demand: 5
+94: (23, 3), Demand: 7
+95: (11, 14), Demand: 18
+96: (6, 38), Demand: 16
+97: (2, 48), Demand: 1
+98: (8, 56), Demand: 27
+99: (13, 52), Demand: 36
+100: (6, 68), Demand: 30
+101: (47, 47), Demand: 13
+102: (49, 58), Demand: 10
+103: (27, 43), Demand: 9
+104: (37, 31), Demand: 14
+105: (57, 29), Demand: 18
+106: (63, 23), Demand: 2
+107: (53, 12), Demand: 6
+108: (32, 12), Demand: 7
+109: (36, 26), Demand: 18
+110: (21, 24), Demand: 28
+111: (17, 34), Demand: 3
+112: (12, 24), Demand: 13
+113: (24, 58), Demand: 19
+114: (27, 69), Demand: 10
+115: (15, 77), Demand: 9
+116: (62, 77), Demand: 20
+117: (49, 73), Demand: 25
+118: (67, 5), Demand: 25
+119: (56, 39), Demand: 36
+120: (37, 47), Demand: 6
+121: (37, 56), Demand: 5
+122: (57, 68), Demand: 15
+123: (47, 16), Demand: 25
+124: (44, 17), Demand: 9
+125: (46, 13), Demand: 8
+126: (49, 11), Demand: 18
+127: (49, 42), Demand: 13
+128: (53, 43), Demand: 14
+129: (61, 52), Demand: 3
+130: (57, 48), Demand: 23
+131: (56, 37), Demand: 6
+132: (55, 54), Demand: 26
+133: (15, 47), Demand: 16
+134: (14, 37), Demand: 11
+135: (11, 31), Demand: 7
+136: (16, 22), Demand: 41
+137: (4, 18), Demand: 35
+138: (28, 18), Demand: 26
+139: (26, 52), Demand: 9
+140: (26, 35), Demand: 15
+141: (31, 67), Demand: 3
+142: (15, 19), Demand: 1
+143: (22, 22), Demand: 2
+144: (18, 24), Demand: 22
+145: (26, 27), Demand: 27
+146: (25, 24), Demand: 20
+147: (22, 27), Demand: 11
+148: (25, 21), Demand: 12
+149: (19, 21), Demand: 10
+150: (20, 26), Demand: 9
+151: (18, 18), Demand: 17

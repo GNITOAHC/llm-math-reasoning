@@ -1,0 +1,821 @@
+
+References:  
+Nysret Musliu. Heuristic Methods for Automatic Rotating Workforce Scheduling. International Journal of Computational Intelligence Research, Volume 2, Issue 4, pp. 309-326, 2006.
+
+
+RESULTS FOR 20  Examples with MIN CONFLICT HEURISITIC with TABU MOVES 
+TABU LIST LENGTH:  1*NumberOfEmployees
+See: 
+
+-----PROBLEM...1 SOLUTION
+- A A A A A N 
+N - - A A A A 
+A N N - - D D 
+D D D N N - - 
+- D D A A N N 
+N - - D D A A 
+- - - D D D D 
+D N N - - - - 
+A A A N N N - 
+
+
+
+-----PROBLEM...2 SOLUTION
+D D D D - - - 
+A A A A A A A 
+- - - - N N N 
+N N N N - - - 
+- D D D D D D 
+D - - - N N N 
+N N N N - - - 
+- A A A A A A 
+A - - - D D D 
+
+
+
+-----PROBLEM...3 SOLUTION
+D N N - - - D 
+D D D A A - - 
+A A N N N N - 
+- - - D D D N 
+N - - A A A A 
+A - - - D D A 
+A A A - - - - 
+D D A A - - - 
+D D D N N N N 
+- - D D N N N 
+N - - - D D D 
+D A A - - N N 
+N N - - - A A 
+N N N N N - - 
+A A A A A A - 
+- D D D A A A 
+A - - D D D D 
+
+
+
+-----PROBLEM...4 SOLUTION
+A A A A A A - 
+A A A - - - - 
+D D D A A A - 
+N N N - - - - 
+A A A N N - - 
+A A A A A A - 
+A A A A A A - 
+- - - D D D - 
+D D D D D D - 
+D D D A A A - 
+- - - D D D - 
+D D D D D D - 
+D D D D D D - 
+
+
+
+-----PROBLEM...5 SOLUTION
+N N - - D D N 
+N N N - - - - 
+A A A N N - - 
+A A N N N - - 
+D D A A A A - 
+A A A A - - - 
+- N N N N - - 
+D D D D D D - 
+D D D A A A - 
+- - D D A A N 
+N - - D D D N 
+
+
+
+-----PROBLEM...6 SOLUTION
+- - - D D D N 
+N N N - - - N 
+N N N N N - - 
+D D D D D D - 
+A A A A A A - 
+A A A N N - - 
+D D D A A A - 
+
+
+
+-----PROBLEM...7 SOLUTION
+- - A A N N - 
+- - - D D D A 
+A - - - - D D 
+D D - - - - D 
+D A A - - - - 
+N N N N N - - 
+- - D D A A A 
+- - - - A A N 
+N - - - - A A 
+A A - - - - D 
+D N N N - - - 
+- N N N N - - 
+- - A A A A - 
+- - - N N N N 
+- - - - D D D 
+D - - - - N N 
+N N - - - A A 
+A A - - - - A 
+A A A - - - - 
+D D A A - - - 
+- D D A A - - 
+- - D D N N - 
+- - - D D N N 
+- - - - D D N 
+N - - - - D D 
+N N N - - - - 
+A A N N - - - 
+- D D A A - - 
+- D D D D - - 
+
+
+
+-----PROBLEM...8 SOLUTION
+A A A A A A - 
+- - - D D D - 
+- - D D D - - 
+D D D - - - - 
+D D D D D - - 
+D D D D D - - 
+D D D A A - - 
+D D A A A - - 
+A A A A A - - 
+A A N N N - - 
+A A A A A A - 
+- - - D D D N 
+N N - - - - N 
+N N N - - - N 
+N N N N - - - 
+A A A N N - - 
+
+
+
+-----PROBLEM...9 SOLUTION
+N - - D D - - 
+D D D A A - - 
+D D D A A A - 
+- - D D D - - 
+D D D D - - - 
+D D D D D - - 
+A A A A A A - 
+- - D D A A N 
+N N - - D D N 
+N N - - D D N 
+N - - D D D - 
+- - D D D - - 
+D D D N N - - 
+A A - - D D - 
+- - D D D - - 
+D D D D - - - 
+A A A A A - - 
+D D D D D - - 
+A A A A A - - 
+A A A A A - - 
+A A A A A - - 
+D D D D D - - 
+D D - - D D N 
+N N N N - - - 
+A A A A A - - 
+A A A - - - - 
+D D N N N - - 
+A A A A - - N 
+N N N N N - - 
+- N N N - - - 
+A A A A A - - 
+A A A A A - - 
+A A A A A - - 
+D D D D D - - 
+A A A A A A - 
+- N N N - - - 
+A A N N N - - 
+D D A A A A - 
+- - - D D D N 
+N N N - - - - 
+D D D - - - N 
+N - - D D - - 
+D D A A A A - 
+- N N N N - - 
+A A A - - - N 
+N N N N N - - 
+D D D D - - N 
+
+
+
+-----PROBLEM...10 SOLUTION
+A A A A A - - 
+D D A A A - - 
+D D D D D A A 
+- - D D A A - 
+- A A A A - - 
+N N N N N - - 
+D D D D - - - 
+- D D D D A A 
+- - - A A N N 
+N N N - - D D 
+D N N N N - - 
+N N N N N - - 
+A A N N N - - 
+D D D D - - A 
+A A A - - N N 
+N N - - D D D 
+D - - N N N N 
+- - - - D D D 
+A A A A - - - 
+N N N N N - - 
+D D D D D - - 
+- D D D D A A 
+A - - N N N N 
+N - - - D D D 
+N N N - - - - 
+A A A A A - - 
+A A A A A - - 
+
+
+
+-----PROBLEM...11 SOLUTION
+A - - D D D D 
+D D - - - D D 
+D A A A A - - 
+- D D D D A A 
+- - - D D A A 
+- - - D D D D 
+D D - - - D D 
+D A A A - - D 
+D N N N - - D 
+D A A A - - D 
+D A A A A - - 
+D D D D D D - 
+- D D D D D - 
+- D D D D A A 
+- - D D D D - 
+- D D D N N N 
+N - - D D D A 
+A A - - D D D 
+D D D - - D D 
+D D D - - D D 
+D D - - D D D 
+D D A A - - A 
+A A - - D D D 
+D A A A - - D 
+D D - - - D D 
+D D D A A - - 
+D D D D D - - 
+D D D D D D - 
+- D D D D A A 
+- - D D D D A 
+
+
+
+-----PROBLEM...12 SOLUTION
+D A A A A - - 
+D D A A A - - 
+D D D D A A A 
+- - D D D D A 
+A - - D D D A 
+A A A - - D D 
+A A - - D D D 
+D D - - D D A 
+A A A A - - D 
+D D D D D - - 
+A A A A A - - 
+D D D A A - - 
+D D D A A - - 
+D D D D D D - 
+- D D D D D - 
+- D D D A A A 
+- - D D D A A 
+A - - D D D A 
+A A A - - D D 
+D A A A - - D 
+
+
+
+-----PROBLEM...13 SOLUTION
+D D D D D D - 
+- D D D D - - 
+- D D D D D A 
+A - - D D D D 
+D A A - - A A 
+A - - D D D - 
+- D D D D D - 
+- A A A A A - 
+- D D N - - D 
+D D - - - D D 
+D A A - - D D 
+D D - - A A A 
+A - - D D A A 
+A - - D D D A 
+A A A - - D D 
+D - - A A A A 
+- - D D A A A 
+A - - D D D - 
+- A A A A N - 
+- A A N - - - 
+D D D - - D D 
+D D D D - - - 
+D D D D D - - 
+D D A A A - - 
+
+
+
+-----PROBLEM...14 SOLUTION
+- - D D D A A 
+A A - A A A A 
+N N N - - D D 
+D D D N N - - 
+A A A N N - - 
+D D D D D D - 
+D D A A A A - 
+A A A A A - - 
+D D D D - D D 
+D D - D D D D 
+N N N - - - - 
+D D D D D D - 
+D D D D D A A 
+
+
+
+-----PROBLEM...15 SOLUTION
+D D D D D D - 
+D D D D D D - 
+D D D D D D - 
+D D D D D D - 
+D D D D D D - 
+D D D D D D - 
+N N N N N - - 
+N N N N N - - 
+D D D D D D - 
+N N N N N - - 
+D D D D D - D 
+D D D D D - D 
+D D A A A - A 
+A A A - A A A 
+A - A A A A A 
+A - A A A A - 
+N N N N N - - 
+D D D D D - D 
+D D D D - A A 
+A A A A - A A 
+A A A A - A A 
+A A A A - - D 
+D A A A A - - 
+D D D - A A A 
+N N - - D D D 
+D D D - D D D 
+D D D - D D D 
+D D - D D D - 
+A A A A A A - 
+N N N N N - - 
+D D D D A A - 
+A A A A A A - 
+N N N N N - - 
+D D D D D D - 
+D D A A A A - 
+N N N N N - - 
+N N N N N - - 
+D D D D D D - 
+D D D D - D D 
+D D D D - D D 
+D D - D D D - 
+D D D D D D - 
+D D D D D D - 
+D D D D D - D 
+D D D D - A A 
+A A A - A A A 
+- - D D D D - 
+D D A A - A A 
+A A A - A A A 
+N N N - - D D 
+D D D D - D D 
+D D - D D D D 
+- D D D D D D 
+- D D D D D - 
+D D D D - - A 
+A A A N N - - 
+D D D D A A - 
+A A A A - - D 
+D A A - A A A 
+- A A A A A - 
+A A A A - A A 
+A A A A - A A 
+A - N N N - - 
+D D D D D D - 
+
+
+
+-----PROBLEM...16 SOLUTION
+- - D D D D D 
+D - - A A A A 
+A - - D D D D 
+D D - - D D A 
+A A A - - D D 
+D D D - - - D 
+D D D D - - D 
+D D N N N - - 
+D D D D - - D 
+D D A A A - - 
+- D D D D D - 
+- - D D D D N 
+N N - - D D A 
+A - - D D D D 
+D A A - - - D 
+D D D A A - - 
+- D D D A A - 
+- - D D D D - 
+- - D D D D D 
+D - - D D D D 
+- - - D D D D 
+A A A - - D D 
+D D - - D D D 
+D A A A - - - 
+D D D A A A A 
+- - D D A A A 
+A A - - - - D 
+D D D D - - - 
+D D D D D D - 
+
+
+
+-----PROBLEM...17 SOLUTION
+- - A A A A A 
+- - D D D A A 
+A A - - A A A 
+A A - - - - D 
+D D A A A A - 
+- - D D D A A 
+- - D D D D D 
+D - - D D D D 
+D - - D D D D 
+A A - - - A A 
+A - - D D D - 
+- D D D D - - 
+A A A A - - D 
+D D A A A - - 
+D D D A A - - 
+D D A A A - - 
+A A A A A - - 
+D D D D D D - 
+- D D D D - - 
+D D A A - - - 
+D D D - - A A 
+A A - - A A A 
+A A - - D D A 
+A A A - - D D 
+D A A A - - D 
+D D - - - D D 
+D D D - - D D 
+D D A A A - - 
+- - D D D D D 
+D - - D D A A 
+- - D D D D D 
+A A - - D D D 
+- - A A A A A 
+
+
+
+-----PROBLEM...18 SOLUTION
+D D N N - - - 
+N N N N - - - 
+- D D D D - - 
+- N N N N - - 
+- D D D D - - 
+- D D D D N N 
+- - - - D D A 
+A - - - - A A 
+A A - - - D D 
+A A A A A - - 
+- - N N N N - 
+- - - D D D N 
+N - - A A N N 
+- - - D D A A 
+- - - A A N N 
+- - - - N N N 
+N - - - - D D 
+D N N N - - - 
+- A A A A - - 
+- - N N N N - 
+- D D D D - - 
+- - D D N N - 
+- - A A A A - 
+- - A A A A - 
+- - A A N N - 
+- - - N N N N 
+- - - - A A N 
+N N - - A A A 
+A A - - - - D 
+D D D N N - - 
+- - D D D D A 
+A - - - - A A 
+A A - - D D N 
+N N - - - D D 
+N N - - - D D 
+D A A - - - - 
+A A N N - - D 
+D A A - - - A 
+A N N - - - - 
+D D N N N - - 
+- - D D A A N 
+N - - - - D D 
+N N - - - - D 
+D A A A A - - 
+- - A A N N N 
+N - - - - A A 
+N N - - - - A 
+A N N - - - - 
+D D A A - - - 
+- D D D D D D 
+D - - - - A A 
+A A - - - - D 
+D D D - - - - 
+
+
+
+-----PROBLEM...19 SOLUTION
+D D D - - D D 
+D A A A - - D 
+D D - - D D D 
+D A A - - A A 
+A A - - D D D 
+D D - - D D D 
+D D D - - - - 
+A A A A - - A 
+A A A N N N - 
+- D D D D D - 
+- - D D D D D 
+D - - A A A - 
+- D D A A A A 
+A - - D D D D 
+D A A - - D D 
+D N N N N - - 
+D D A A - - D 
+D D A A A A - 
+- D D A A A A 
+- - D D D D D 
+D - - D D A A 
+A A - - D D D 
+D D D - - D D 
+D D - - D D A 
+A A A A - - D 
+D A A A - - A 
+A A A A - - A 
+A A - - D D A 
+A A A - - D D 
+D D D - - D D 
+D D D A A - - 
+D D D D - - D 
+D D D - - D D 
+D - - A A A N 
+N - - D D D N 
+N N N - - N N 
+N - - D D A A 
+A A A - - - D 
+D D D A A A - 
+- D D D - - D 
+D D D - - A A 
+A A - - D D D 
+D - - D D D D 
+D - - D D D - 
+- D D D D - - 
+A A A - - D D 
+N N N - - A A 
+A - - D D D D 
+A A - - D D D 
+- - D D D D - 
+- D D D D D - 
+- D D D A A A 
+A - - D D D D 
+D - - D D A A 
+A - - A A A - 
+- D D D D D D 
+- - D D D D - 
+- D D A A A A 
+- - D D D D - 
+- D D D D - - 
+D D D D - - D 
+D D D D D - - 
+D D A A A A A 
+- - D D D D - 
+- D D D D D A 
+A - - D D D D 
+D N N - - D D 
+D D D D - - D 
+D D A A A - - 
+D D D D D - - 
+D D D D D D - 
+- D D D D D D 
+- - A A A A A 
+- - D D A A A 
+- - D D D - - 
+A A A - - D D 
+D D D A A - - 
+- D D D D N N 
+N - - D D D D 
+D D - - - D D 
+A A A A A - - 
+D D D - - D D 
+D D A A A - - 
+D D D D A A A 
+- - - D D D D 
+D D - - D D D 
+- - D D D D A 
+A A - - - D D 
+D N N N N - - 
+D D A A - - D 
+D D D D D - - 
+D D D D - - D 
+D D D D D - - 
+A A A - - D D 
+A A A N N - - 
+- D D D D N N 
+- - D D D D D 
+D - - D D D D 
+- - D D A A - 
+- D D D - - D 
+D D D D A A - 
+- D D D D D D 
+- - D D A A A 
+A A - - A A A 
+- - D D D - - 
+D D A A - - D 
+D A A A - - D 
+D D - - D D D 
+D D - - D D D 
+- - D D D D D 
+D - - D D D D 
+D - - D D D D 
+D D - - D D D 
+D D D - - D D 
+A A - - A A A 
+- - D D D D D 
+A A - - A A A 
+- - A A A - - 
+D D D N N N - 
+- D D D D - - 
+
+
+
+-----PROBLEM...20 SOLUTION
+- - D D D - D 
+D D D - D D D 
+D - A A A - - 
+A A A - - D D 
+D - D D A A - 
+- D D D D - A 
+A A - A A A A 
+A - A A A A - 
+- D D D D D - 
+D D D D - D D 
+D D D - D D D 
+D D D - - D D 
+D D D D - - - 
+- D D D D D - 
+D D D D D D - 
+D D D D D D - 
+A A A - - D D 
+D A A - A A A 
+- - D D D D - 
+D D D A A A - 
+- D D D A A A 
+- - D D D D - 
+D D D - D D D 
+D - - - D D A 
+A N N - - - A 
+A A - - D D A 
+A - - D D A A 
+N N - - A A A 
+A A A - - A A 
+A A A A - - - 
+D D D - D D D 
+- D D D D - D 
+D D - D D D D 
+- D D D D - D 
+D D - - D D A 
+A A A - - D D 
+D D D D - - D 
+D D D - D D A 
+A A A - A A A 
+A N N - - A A 
+A - A A N N - 
+- D D D D D D 
+- D D D - D D 
+D A A - - D D 
+D D - D D A A 
+- - D D D D - 
+D D D D D D - 
+D D D D D - D 
+D D - - D D D 
+D - - D D D D 
+D - A A A A A 
+- A A A A A - 
+A A A A A - A 
+A A A A - A A 
+A A - - D D D 
+- D D D D D D 
+- D D D - D D 
+D D - A A A - 
+- D D D D D - 
+D D D D - D D 
+D D D D - - - 
+- D D D N N N 
+- - A A A A A 
+A - - - D D D 
+D - D D D D A 
+A - - D D D D 
+D - D D D D D 
+D - A A A A A 
+- A A A A A - 
+A A A A - - D 
+D D D - D D D 
+A A - A A N N 
+N - - D D A A 
+A - A A A A - 
+- D D D D D D 
+- A A A A A - 
+- D D D - D D 
+D D A A - - D 
+D D D D D - D 
+D D D D - D D 
+D D - D D D - 
+- D D D D D D 
+- - D D D D D 
+D - D D D D - 
+A A A - A A A 
+- - D D D D - 
+D D D - D D D 
+D D - D D D D 
+D - D D D - D 
+D D D A A - A 
+A A A A - - D 
+D A A A A - A 
+A A A A A - - 
+D D D A A A - 
+- A A A A A A 
+- A A A A A A 
+- - D D D D D 
+D - D D D A A 
+- - D D A A A 
+A - - D D D A 
+A A - N N N - 
+- D D D D - D 
+D D - D D D D 
+D - D D D D D 
+- - A A A - A 
+A A - - D D A 
+A A - - D D D 
+D D D - D D D 
+D D D - D D D 
+D A A - - D D 
+N N N N - - D 
+D A A A A - - 
+D D D D - D D 
+D D - A A A A 
+- N N N N N - 
+- D D D A A A 
+- - D D D - D 
+D D D - D D D 
+- D D D D D - 
+A A N N - - D 
+D D D D D - D 
+D D D D D - D 
+D D D - D D D 
+- D D D D D D 
+- D D D - - D 
+D D D A A - - 
+D D D D D D - 
+D D D D - D D 
+D - D D D D D 
+- D D D - A A 
+A - - D D D D 
+- D D N N - - 
+- A A A A - N 
+N N - - D D D 
+D D - D D D A 
+A A - - D D D 
+D D - D D D - 
+D D A A - A A 
+A - - - D D D 
+A A - A A A A 
+A - A A A - - 
+D D A A - - D 
+D D - D D D D 
+D D - D D D N 
+N - - D D D D 
+- D D D - - D 
+D D A A A - A 
+A A A N N - - 
+A A A A A A - 
+- A A A A A - 
+A A A A A A - 
+- D D D D D D 
+- - D D D - A 
+A A A A A - - 
+- D D D D D D 
+- A A A A A - 
+A A A A A A - 
+- D D D D - D 
+D D D D D - - 
+D D D D D - D 
+D D D D D - D 
+D D D - D D D 
+D - A A A N N 
+

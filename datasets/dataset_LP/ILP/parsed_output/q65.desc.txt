@@ -1,0 +1,10 @@
+There are two specialized containers, a small and large one, that are used to make a pharmaceutical paste. The small container requires 10 units of water and 15 units of the powdered pill to make 20 units of the paste. The large container requires 20 units of water and 20 units of the powdered pill to make 30 units of the paste. The pharmacy has available 500 units of water and 700 units of the powdered pill. How many of each container should be used to maximize the amount of paste that can be made?
+
+[ Objective Declaration ]
+MAXIMIZE, amount_of_paste = 20*small + 30*large
+
+[ const_type: linear ]
+10*small + 20*large <= 500
+
+[ const_type: linear ]
+15*small + 20*large <= 700

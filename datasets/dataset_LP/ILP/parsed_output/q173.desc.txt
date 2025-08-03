@@ -1,0 +1,13 @@
+A chicken farmer has sold his chicken and they need to be transported either by bus or by car. A bus can take 100 chicken and takes 2 hours per trip. A car can take 40 chicken and takes 1.5 hours per trip. There can be at most 10 bus trips and at least 60% of the trips must be by car. If the farmer needs to transport 1200 chicken, how many trips of each should be done to minimize the total time needed to transport the chicken?
+
+[ Objective Declaration ]
+MINIMIZE, total_time = 2*bus + 1.5*car
+
+[ const_type: upperbound ]
+bus <= 10
+
+[ const_type: ratio ]
+car >= 0.6 * (car + bus)
+
+[ const_type: linear ]
+100*bus + 40*car >= 1200

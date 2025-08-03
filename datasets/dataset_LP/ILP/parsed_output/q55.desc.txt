@@ -1,0 +1,10 @@
+A woodshop can purchase two types of saws, a miter saw and a circular saw. A miter saw can cut 50 planks of wood and produces 60 units of sawdust per day. A circular saw can cut 70 planks of wood and produces 100 units of sawdust per day. The woodshop must cut at least 1500 planks of wood per day. However, to avoid too much pollution in the woodshop they can produce at most 2000 units of sawdust per day. How many of each type of saw should be purchased to minimize the total number of saws needed?
+
+[ Objective Declaration ]
+MINIMIZE, 1*miter_saw + 1*circular_saw
+
+[ const_type: linear ]
+50*miter_saw + 70*circular_saw >= 1500
+
+[ const_type: linear ]
+60*miter_saw + 100*circular_saw <= 2000

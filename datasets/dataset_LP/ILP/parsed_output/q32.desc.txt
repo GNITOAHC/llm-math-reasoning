@@ -1,0 +1,10 @@
+A electronics store sells premium desktops with more power as well as regular desktops for everyday use. Each premium desktop costs the store $2000 to make and yields a profit of $500. Each regular desktop costs the store $1000 to make and yields a profit of $300. The store sells at most 200 desktops each month and wants to spend at most $300000 on making the desktops. How many of each should be made and sold to maximize profit?
+
+[ Objective Declaration ]
+MAXIMIZE, profit = 500*premium_desktops + 300*regular_desktops
+
+[ const_type: sum ]
+premium_desktops + regular_desktops <= 200
+
+[ const_type: linear ]
+2000*premium_desktops + 1000*regular_desktops <= 300000

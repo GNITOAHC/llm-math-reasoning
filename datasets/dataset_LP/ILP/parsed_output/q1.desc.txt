@@ -1,0 +1,10 @@
+A fishery wants to transport their catch. They can either use local sled dogs or trucks. Local sled dogs can take 100 fish per trip while trucks can take 300 fish per trip. The cost per trip for sled dogs is $50 while the cost per trip for a truck is $100. The budget is at most $1000 and the number of sled dog trips must be less than the number of truck trips. Formulate an LP to maximize the number of fish that can be transported.
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_fish = 100*sled_dogs + 300*trucks
+
+[ const_type: linear ]
+50*sled_dogs + 100*trucks <= 1000
+
+[ const_type: xy ]
+sled_dogs < trucks

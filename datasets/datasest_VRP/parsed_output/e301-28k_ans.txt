@@ -1,0 +1,8 @@
+[METADATA]
+File: E301-28k
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 28
+Total Cost: 1066.5905
+Depot: Node 301
+
+[ROUTES]

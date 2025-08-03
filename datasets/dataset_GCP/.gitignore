@@ -1,0 +1,4 @@
+# ignore all_files in gcp_instances
+gcp_instances/*
+# except .gitkeep
+!gcp_instances/.gitkeep

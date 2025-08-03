@@ -1,0 +1,13 @@
+A new fast food place makes wraps and platters. Each wrap requires 5 units of meat and 3 units of rice. Each platter requires 7 units of meant and 5 units of rice. While each wrap takes 10 minutes to make, each platter takes 8 minutes to make. The fast food place must use at least 3000 units of meat and 2500 units of rice. Since wraps are easier to eat on the go, at least 3 times as many wraps need to be made as platter. How many of each should the fast food place make to minimize the total production time?
+
+[ Objective Declaration ]
+MINIMIZE, total_production_time = 10*wraps + 8*platters
+
+[ const_type: linear ]
+5*wraps + 7*platters >= 3000
+
+[ const_type: linear ]
+3*wraps + 5*platters >= 2500
+
+[ const_type: xby ]
+wraps >= 3 * platters

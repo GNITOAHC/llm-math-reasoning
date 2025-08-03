@@ -1,0 +1,16 @@
+A bubble tea shop sells mango and lychee bubble tea. Each mango bubble tea requires 4 units of mango juice and 8 units of tea. Each lychee bubble tea requires 6 units of lychee juice and 6 units of tea. The shop has available 2000 units of mango juice and 3000 units of lychee juice. At least 40% of the bubble teas made must be lychee flavored. However, mango bubble tea sells better and thus the number of mango bubble teas made must be large than the number of lychee bubble teas made. How many of each bubble tea flavor should be made to minimize the total amount of tea needed?
+
+[ Objective Declaration ]
+MINIMIZE, amount_of_tea = 8*mango_bubble_tea + 6*lychee_bubble_tea
+
+[ const_type: linear ]
+4*mango_bubble_tea <= 2000
+
+[ const_type: linear ]
+6*lychee_bubble_tea <= 3000
+
+[ const_type: ratio ]
+lychee_bubble_tea >= 0.4 * (lychee_bubble_tea + mango_bubble_tea)
+
+[ const_type: xy ]
+mango_bubble_tea >= lychee_bubble_tea

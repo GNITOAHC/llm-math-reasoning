@@ -1,0 +1,13 @@
+A clinic is conducting a throat or nasal swabs on each patient. A throat swab takes 5 minutes while a nasal swab takes 3 minutes. The clinic must administer at least 30 nasal swabs. Since the nasal swab is more uncomfortable, at least 4 times as many throat swabs must be done as nasal swabs. If the clinic is only operational for 20000 minutes, how many of each swab should be done to maximize the number of patients seen?
+
+[ Objective Declaration ]
+MAXIMIZE, 1*throat + 1*nasal_swabs
+
+[ const_type: xby ]
+throat >= 4 * nasal_swabs
+
+[ const_type: lowerbound ]
+nasal_swabs >= 30
+
+[ const_type: linear ]
+5*throat + 3*nasal_swabs <= 20000

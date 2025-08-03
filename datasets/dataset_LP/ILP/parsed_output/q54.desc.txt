@@ -1,0 +1,10 @@
+There are two processes, process A and process B, to plate a coin with gold. Process A requires 3 units of gold, 2 wires, and can plate 5 coins. Process B requires 5 units of gold, 3 wires, and can plate 7 coins. There are 500 units of gold and 300 wires available. How many processes of each type should be run to maximize the total number of coins that can be plated?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_coins = 5*process_A + 7*process_B
+
+[ const_type: linear ]
+3*process_A + 5*process_B <= 500
+
+[ const_type: linear ]
+2*process_A + 3*process_B <= 300

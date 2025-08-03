@@ -1,0 +1,10 @@
+A cell phone company is building rural and urban factories. A rural factory can make 100 phones per day and requires 8 managers. An urban factory can make 200 phones per day and requires 20 managers. The company has available 260 managers and must make at least 3000 phones per day. How many of each factory type should be built to minimize the total number of factories?
+
+[ Objective Declaration ]
+MINIMIZE, 1*rural + 1*urban
+
+[ const_type: linear ]
+8*rural + 20*urban <= 260
+
+[ const_type: linear ]
+100*rural + 200*urban >= 3000

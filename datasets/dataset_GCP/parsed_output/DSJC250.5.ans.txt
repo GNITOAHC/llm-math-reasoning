@@ -1,0 +1,4 @@
+Answer: 26
+History Answer: None
+Lower Bound: 26
+Upper Bound: 28

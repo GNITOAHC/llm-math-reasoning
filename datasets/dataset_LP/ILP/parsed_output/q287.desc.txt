@@ -1,0 +1,16 @@
+A brewery can ferment their product into either wine or kombucha. Each unit of wine requires 3 units of fruit and 8 units of water. Each unit of kombucha requires 5 units of fruit and 7 units of tea. The company has available 7000 units of water and 9000 units of tea. Wine sells for more, therefore the number of wine must be larger than the number of kombucha. Additionally, at least 20% of their products made must be kombucha. How many of each should the brewery make to minimize the total units of fruit required?
+
+[ Objective Declaration ]
+MINIMIZE, total_units_of_fruit_required = 3*wine + 5*kombucha
+
+[ const_type: linear ]
+8*wine <= 7000
+
+[ const_type: linear ]
+7*kombucha <= 9000
+
+[ const_type: xy ]
+wine > kombucha
+
+[ const_type: ratio ]
+kombucha >= 0.2 * (kombucha + wine)

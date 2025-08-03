@@ -1,0 +1,13 @@
+An amusement park has two types of games: throwing and climbing games. Throwing games attract 15 customers every hour and climbing games attract 8 customers every hour. Throwing games costs the amusement park $2 in prizes per hour whereas climbing games cost $3 in prizes per hour. Since throwing games yield the most profit, there must be at least twice as many throwing games as climbing games. However, at least 5 games must be climbing. If the amusement park can have at most $100 in prizes every hour, maximize the total number of customers attracted every hour.
+
+[ Objective Declaration ]
+MAXIMIZE, total_number_of_customers_attracted_every_hour = 8*climbing_games + 15*throwing
+
+[ const_type: xby ]
+throwing >= 2 * climbing_games
+
+[ const_type: lowerbound ]
+climbing_games >= 5
+
+[ const_type: linear ]
+2*throwing + 3*climbing_games <= 100

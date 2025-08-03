@@ -1,0 +1,60 @@
+[METADATA]
+File: E045-04f
+COMMENT: Fisher, 1994
+
+[VRP_DATA_INFO]
+Type: CVRP (Capacitated Vehicle Routing Problem)
+Dimension: 45
+Distance Metric: Euclidean (2D)
+Vehicle Capacity: 2010
+Number of Vehicles: 4
+
+[Depot]
+Node 1: Coordinates: (0, 0), Demand: 0
+
+[Customer Nodes]
+# Format: Node ID: Coordinates (x, y), Demand
+2: (3, 5), Demand: 33
+3: (2, 9), Demand: 15
+4: (48, 16), Demand: 10
+5: (48, 17), Demand: 40
+6: (69, 16), Demand: 15
+7: (70, 16), Demand: 5
+8: (64, 13), Demand: 77
+9: (3, -22), Demand: 435
+10: (2, 1), Demand: 165
+11: (-13, 11), Demand: 120
+12: (-20, 45), Demand: 65
+13: (-9, 52), Demand: 23
+14: (-8, 53), Demand: 18
+15: (-8, 52), Demand: 550
+16: (2, 2), Demand: 78
+17: (-2, 9), Demand: 627
+18: (-10, 20), Demand: 9
+19: (-20, 19), Demand: 96
+20: (-15, -21), Demand: 116
+21: (-5, -9), Demand: 116
+22: (-4, -9), Demand: 83
+23: (-52, -36), Demand: 41
+24: (-53, -36), Demand: 645
+25: (0, 0), Demand: 694
+26: (-30, -18), Demand: 573
+27: (-51, -35), Demand: 1
+28: (81, 9), Demand: 181
+29: (84, -99), Demand: 106
+30: (82, -6), Demand: 52
+31: (40, -12), Demand: 117
+32: (50, -7), Demand: 52
+33: (51, -8), Demand: 1300
+34: (63, -17), Demand: 57
+35: (45, -1), Demand: 28
+36: (54, 8), Demand: 84
+37: (29, 4), Demand: 1
+38: (21, 3), Demand: 54
+39: (22, 2), Demand: 19
+40: (39, -3), Demand: 88
+41: (39, -3), Demand: 41
+42: (40, -11), Demand: 238
+43: (28, -2), Demand: 66
+44: (24, -18), Demand: 44
+45: (24, -19), Demand: 42

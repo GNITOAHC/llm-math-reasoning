@@ -1,0 +1,10 @@
+A tourist spot in the mountains allows visitors to travel to the top either by hot-air balloon or gondola lift. A hot air balloon can carry 4 visitors while a gondola lift can carry 6 visitors. Each hot air balloon produces 10 units of pollution while each gondola lift produces 15 units of pollution. There can be at most 10 hot-air balloon rides and at least 70 visitors need to be transported. How many of each type of transport method should be taken to minimize the total pollution produced?
+
+[ Objective Declaration ]
+MINIMIZE, pollution = 10*hot-air_balloon + 15*gondola_lift
+
+[ const_type: upperbound ]
+hot-air_balloon <= 10
+
+[ const_type: linear ]
+4*hot-air_balloon + 6*gondola_lift >= 70

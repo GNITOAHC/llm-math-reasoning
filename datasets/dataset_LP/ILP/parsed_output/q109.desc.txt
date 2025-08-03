@@ -1,0 +1,16 @@
+A pharmaceutical company makes skin cream in batches, a regular batch and premium batch, to sell to hospitals. The regular batch requires 50 units of medicinal ingredients and 40 units of rehydration product. A premium batch requires 40 units of medicinal ingredients and 60 units of rehydration product. The company has available 3000 units of medicinal ingredients and 3500 units of rehydration product. Since the premium batch sells better, the number of regular batches must be less than the number of premium batches. In addition, the company must make at least 10 regular batches. If a regular batch can treat 50 people and a premium batch can treat 30 people, how many of each batch should be made to maximize the number of people that can be treated?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_people = 50*regular_batch + 30*premium_batch
+
+[ const_type: linear ]
+50*regular_batch + 40*premium_batch <= 3000
+
+[ const_type: linear ]
+40*regular_batch + 60*premium_batch <= 3500
+
+[ const_type: xy ]
+regular_batch < premium_batch
+
+[ const_type: lowerbound ]
+regular_batch >= 10

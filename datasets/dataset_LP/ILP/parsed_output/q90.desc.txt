@@ -1,0 +1,16 @@
+An Indian restaurant makes goat and chicken curry. Each bowl of goat curry requires 3 units of goat meat and 6 units of the curry base. Each bowl of chicken curry requires 5 units of chicken meat and 5 units of the curry base. The restaurant has available 1500 units of goat meat and 2000 units of chicken meat. At least 25% of the bowls made must be chicken curry. Since goat curry is more popular, the number of goat curry bowls must be larger than the number of chicken curry bowls. How many of each type of curry bowl should be made to minimize the total amount of curry base used?
+
+[ Objective Declaration ]
+MINIMIZE, total_amount_of_curry_base = 6*goat + 5*chicken
+
+[ const_type: linear ]
+3*goat <= 1500
+
+[ const_type: linear ]
+5*chicken <= 2000
+
+[ const_type: ratio ]
+chicken >= 0.25 * (chicken + goat)
+
+[ const_type: xy ]
+goat >= chicken

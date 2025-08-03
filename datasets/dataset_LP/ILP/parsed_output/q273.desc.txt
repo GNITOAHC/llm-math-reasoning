@@ -1,0 +1,16 @@
+A hospital prepares batches of medication patches and anti-biotic creams. Each medication patch requires 3 minutes to prepare and 5 units of materials. Each anti-biotic cream requires 5 minutes to prepare and 6 units of materials. Since anti-biotic creams are used more often, there must be at least twice as many anti-biotic creams as medication patches. Due to storage reasons, the hospital can make at most 100 batches of medication patches and anti-biotic creams in total. The hospital has available 400 minutes of staff to spare and 530 units of materials. If each batch of medication patches can treat 3 people and each batch of anti-biotic cream can treat 2 people, how many batches of each should be made to maximize the number of people that can be treated?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_people = 3*medication_patches + 2*anti-biotic_creams
+
+[ const_type: linear ]
+3*medication_patches + 5*anti-biotic_creams <= 400
+
+[ const_type: linear ]
+5*medication_patches + 6*anti-biotic_creams <= 530
+
+[ const_type: sum ]
+medication_patches + anti-biotic_creams <= 100
+
+[ const_type: xby ]
+anti-biotic_creams >= 2 * medication_patches

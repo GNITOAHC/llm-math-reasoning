@@ -1,0 +1,12 @@
+# ignore all file in the all_tsp directory
+all_tsp/*
+# but not the .gitkeep file
+!all_tsp/.gitkeep
+# parsed_output/*
+# but not the .gitkeep file
+!parsed_output/.gitkeep
+
+# ignore the parsed_output/large directory
+parsed_output/large/*
+# but not the .gitkeep file
+!parsed_output/large/.gitkeep

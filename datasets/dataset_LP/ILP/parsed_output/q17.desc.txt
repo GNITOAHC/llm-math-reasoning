@@ -1,0 +1,16 @@
+A company is deciding where to promote their product. Some options include z-tube, soorchle engine, and wassa advertisements. The cost for each option and the number of viewers they each attract is given. On z-tube, each ad costs $1000 and attracts 400,000 viewers. On soorchle, each ad costs $200 and attracts 5,000 viewers. On wassa, each ad costs $100 and attracts 3,000 viewers. Soorchle limits the number of advertisements from a single company to fifteen. Moreover, in order to balance the advertising among the three types of media, at most a third of the total number of advertisements should occur on wassa. And at least 5% should occur on z-tube. The weekly advertising budget is $10000. How many advertisements should be run in each of the three types of media to maximize the total audience?
+
+[ Objective Declaration ]
+MAXIMIZE, audience = 400000*z-tube + 5000*soorchle + 3000*wassa
+
+[ const_type: upperbound ]
+soorchle <= 15
+
+[ const_type: ratio ]
+wassa <= 0.333 * (wassa + z-tube + soorchle)
+
+[ const_type: ratio ]
+z-tube >= 0.05 * (z-tube + soorchle + wassa)
+
+[ const_type: linear ]
+1000*z-tube + 200*soorchle + 100*wassa <= 10000

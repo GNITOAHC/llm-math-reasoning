@@ -1,0 +1,13 @@
+A competitive eater challenges himself to eat slices of cheesecake and caramel cake. Each slice of cheesecake contains 200 calories and 40 grams of sugar. Each slice of caramel cake contains 250 calories and 50 grams of sugar. He prefers cheesecake and decides to eat at least 3 times as many slices of cheesecake as caramel cake. However, he must also eat at least 3 slices of caramel cake. If he can consume at most 10000 calories in one day, how many slices of each cake should he eat to maximize the total amount of sugar he consumes?
+
+[ Objective Declaration ]
+MAXIMIZE, total_amount_of_sugar = 40*cheesecake + 50*caramel_cake
+
+[ const_type: xby ]
+cheesecake >= 3 * caramel_cake
+
+[ const_type: lowerbound ]
+caramel_cake >= 3
+
+[ const_type: linear ]
+200*cheesecake + 250*caramel_cake <= 10000

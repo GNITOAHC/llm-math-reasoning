@@ -1,0 +1,10 @@
+A school is organizing a field trip to a science center and wants to hire small buses and large buses. A small bus can carry 20 students while a large bus can carry 50 students.  The school needs to provide transportation for at least 500 students.  In addition, since the parking lot is rather small, a maximum of 20% of the buses can be large buses. How many of each type of bus should be hired to minimize the total number of buses?
+
+[ Objective Declaration ]
+MINIMIZE, 1*small_buses + 1*large_buses
+
+[ const_type: linear ]
+20*small_buses + 50*large_buses >= 500
+
+[ const_type: ratio ]
+large_buses <= 0.2 * (large_buses + small_buses)

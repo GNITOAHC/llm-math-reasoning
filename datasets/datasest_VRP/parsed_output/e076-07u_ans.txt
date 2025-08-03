@@ -1,0 +1,42 @@
+[METADATA]
+File: E076-07u
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 7
+Total Cost: 690.804
+Depot: Node 72
+
+[ROUTES]
+Route 1:
+Total Demand: 171
+Cost: 70.5824
+Customers: [17, 40, 3, 44, 32, 9, 39, 72, 12]
+
+Route 2:
+Total Demand: 219
+Cost: 135.1387
+Customers: [8, 19, 54, 13, 57, 15, 37, 20, 70, 60, 71, 69, 36, 5, 29, 45]
+
+Route 3:
+Total Demand: 142
+Cost: 39.3374
+Customers: [67, 46, 34, 52, 27, 4]
+
+Route 4:
+Total Demand: 209
+Cost: 133.9111
+Customers: [51, 16, 49, 24, 18, 50, 25, 55, 31, 10, 58, 26]
+
+Route 5:
+Total Demand: 215
+Cost: 123.4369
+Customers: [6, 33, 63, 23, 56, 41, 43, 42, 64, 22, 62, 1, 73]
+
+Route 6:
+Total Demand: 209
+Cost: 105.3136
+Customers: [38, 65, 11, 66, 59, 14, 53, 35, 7]
+
+Route 7:
+Total Demand: 199
+Cost: 83.0845
+Customers: [30, 48, 47, 21, 61, 28, 74, 2, 68, 75]

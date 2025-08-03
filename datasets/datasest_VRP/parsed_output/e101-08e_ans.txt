@@ -1,0 +1,47 @@
+[METADATA]
+File: E101-08e
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 8
+Total Cost: 826.136
+Depot: Node 101
+
+[ROUTES]
+Route 1:
+Total Demand: 108
+Cost: 40.907
+Customers: [94, 95, 97, 87, 13]
+
+Route 2:
+Total Demand: 194
+Cost: 106.0623
+Customers: [21, 72, 75, 56, 39, 67, 23, 41, 22, 74, 73, 40]
+
+Route 3:
+Total Demand: 198
+Cost: 126.6643
+Customers: [92, 98, 37, 100, 91, 16, 86, 38, 44, 14, 42, 43, 15, 57, 2, 58]
+
+Route 4:
+Total Demand: 199
+Cost: 118.7928
+Customers: [50, 33, 81, 51, 9, 71, 65, 35, 34, 78, 79, 3, 77, 76]
+
+Route 5:
+Total Demand: 199
+Cost: 138.7946
+Customers: [52, 7, 82, 48, 19, 11, 64, 49, 36, 47, 46, 8, 83, 18]
+
+Route 6:
+Total Demand: 165
+Cost: 98.2511
+Customers: [28, 12, 80, 68, 29, 24, 54, 55, 25, 4, 26, 53]
+
+Route 7:
+Total Demand: 199
+Cost: 113.9345
+Customers: [31, 88, 62, 10, 63, 90, 32, 66, 20, 30, 70, 1, 69, 27]
+
+Route 8:
+Total Demand: 196
+Cost: 82.7304
+Customers: [89, 60, 5, 84, 45, 17, 61, 85, 93, 59, 99, 96, 6]

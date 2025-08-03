@@ -1,0 +1,19 @@
+A grape farmer transports his grapes in either small crates or large crates. A small crate can take 200 grapes while a large crate can take 500.  Because his customers prefer smaller crates, at least 3 times as many small crates must be used than large crates. The farmer has available at most 100 small crates and at most 50 large crates. In addition, his truck can take at most 60 crates total and he must use at least 10 large crates. How many of each crate should he use to maximize the total number of grapes he can transport?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_grapes = 200*small_crates + 500*large_crates
+
+[ const_type: xby ]
+small_crates >= 3 * large_crates
+
+[ const_type: upperbound ]
+small_crates <= 100
+
+[ const_type: upperbound ]
+large_crates <= 50
+
+[ const_type: sum ]
+small_crates + large_crates <= 60
+
+[ const_type: lowerbound ]
+large_crates >= 10

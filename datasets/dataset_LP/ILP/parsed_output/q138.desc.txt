@@ -1,0 +1,13 @@
+A doctor suggests that his patient eat oranges and grapefruit to meet his vitamin C and vitamin A requirements. One orange contains 5 units of vitamin C, 3 units of vitamin A, and 5 grams of sugar. One grapefruit contains 7 units of vitamin C, 5 units of vitamin A, and 6 grams of sugar. The patient must get at least 80 units of vitamin C and 70 units of vitamin A. Since the patent prefers oranges, he must eat at least 2 times as many oranges as grapefruit. How many of each should he eat to minimize his sugar intake?
+
+[ Objective Declaration ]
+MINIMIZE, sugar = 5*oranges + 6*grapefruit
+
+[ const_type: linear ]
+5*oranges + 7*grapefruit >= 80
+
+[ const_type: linear ]
+3*oranges + 5*grapefruit >= 70
+
+[ const_type: xby ]
+oranges >= 2 * grapefruit

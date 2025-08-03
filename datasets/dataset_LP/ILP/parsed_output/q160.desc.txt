@@ -1,0 +1,13 @@
+A meat shop ships their burger patties using refrigerated trucks and vans. Each truck can take 1000 patties at a cost of $300 per trip. Each van can take 500 patties at a cost of $100 per trip. Because the trucks have difficulty moving around in the city, the number of trucks must not exceed the number of vans. The meat shop has to ship at least 50000 patties and they have a budget of $12500. How should they plan their shipment to minimize the total number of trips?
+
+[ Objective Declaration ]
+MINIMIZE, 1*trucks + 1*vans
+
+[ const_type: xy ]
+trucks <= vans
+
+[ const_type: linear ]
+1000*trucks + 500*vans >= 50000
+
+[ const_type: linear ]
+300*trucks + 100*vans <= 12500

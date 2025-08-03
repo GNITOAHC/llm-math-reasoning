@@ -1,0 +1,16 @@
+A handmade sports equipment manufacturing company makes basketballs and footballs. Basketballs require 5 units of materials and 1 hour to make whereas footballs require 3 units of materials and 2 hours to make. The manufacturing company has available 1500 units of materials and their workers working at max capacity can work for at most 750 hours. Since basketballs sell better, there must be at least three times as many basketballs as footballs but the manufacturing company would like at least 50 footballs. How many of each should the manufacturing company make to maximize the total number of sports equipment produced?
+
+[ Objective Declaration ]
+MAXIMIZE, 1*basketballs + 1*footballs
+
+[ const_type: linear ]
+5*basketballs + 3*footballs <= 1500
+
+[ const_type: linear ]
+2*footballs + 1*basketballs <= 750
+
+[ const_type: xby ]
+basketballs >= 3 * footballs
+
+[ const_type: lowerbound ]
+footballs >= 50

@@ -1,0 +1,13 @@
+An incandescent bulb manufacturing company uses either an argon gas approach or halogen gas approach to fill their light bulbs. The argon gas approach uses 10 units of gas and 12 units of glass to make 2 light bulbs. The halogen gas approach uses 12 units of gas and 8 units of glass to make 3 light bulbs. Additionally, the argon gas approach generates 3 units of heat while the halogen gas approach creates 4 units of heat. The manufacturing company has available 150 units of gas and 120 units of glass. If at most 28 units of heat can be generated during the manufacturing process, how many of each method should be used to maximize the number of light bulbs produced?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_light_bulbs = 2*argon_gas_approach + 3*halogen_gas_approach
+
+[ const_type: linear ]
+10*argon_gas_approach + 12*halogen_gas_approach <= 150
+
+[ const_type: linear ]
+12*argon_gas_approach + 8*halogen_gas_approach <= 120
+
+[ const_type: linear ]
+3*argon_gas_approach + 4*halogen_gas_approach <= 28

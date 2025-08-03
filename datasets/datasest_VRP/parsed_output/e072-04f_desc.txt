@@ -1,0 +1,87 @@
+[METADATA]
+File: E072-04f
+COMMENT: Fisher, 1994
+
+[VRP_DATA_INFO]
+Type: CVRP (Capacitated Vehicle Routing Problem)
+Dimension: 72
+Distance Metric: Euclidean (2D)
+Vehicle Capacity: 30000
+Number of Vehicles: 4
+
+[Depot]
+Node 1: Coordinates: (0, 0), Demand: 0
+
+[Customer Nodes]
+# Format: Node ID: Coordinates (x, y), Demand
+2: (-12, -6), Demand: 7063
+3: (-15, -5), Demand: 51
+4: (-1, -18), Demand: 23
+5: (2, -21), Demand: 3074
+6: (-1, -17), Demand: 349
+7: (-9, -12), Demand: 1047
+8: (2, -22), Demand: 698
+9: (1, -21), Demand: 3001
+10: (7, -25), Demand: 31
+11: (-7, -17), Demand: 1135
+12: (-11, -5), Demand: 21611
+13: (-14, -9), Demand: 57
+14: (-14, -8), Demand: 51
+15: (-11, -2), Demand: 551
+16: (-14, -5), Demand: 179
+17: (-15, -9), Demand: 6
+18: (-15, -8), Demand: 528
+19: (-9, -6), Demand: 2832
+20: (-14, -4), Demand: 1514
+21: (3, 6), Demand: 889
+22: (5, 9), Demand: 2554
+23: (5, 10), Demand: 1215
+24: (2, 8), Demand: 1810
+25: (1, 9), Demand: 3050
+26: (1, 10), Demand: 4
+27: (2, 9), Demand: 1563
+28: (6, 14), Demand: 741
+29: (5, 12), Demand: 1532
+30: (3, 7), Demand: 709
+31: (4, 8), Demand: 1022
+32: (-6, 1), Demand: 883
+33: (-6, 2), Demand: 1689
+34: (-8, -2), Demand: 10235
+35: (-7, 2), Demand: 29
+36: (-7, -3), Demand: 2894
+37: (-7, -2), Demand: 450
+38: (-20, 12), Demand: 411
+39: (-20, 13), Demand: 207
+40: (-12, 10), Demand: 496
+41: (-20, 15), Demand: 1021
+42: (-6, 8), Demand: 117
+43: (2, 21), Demand: 46
+44: (2, 22), Demand: 8
+45: (1, 21), Demand: 18
+46: (-1, 24), Demand: 561
+47: (1, 22), Demand: 1877
+48: (-2, 20), Demand: 3542
+49: (-2, 21), Demand: 801
+50: (-4, 18), Demand: 967
+51: (-4, 19), Demand: 62
+52: (-5, 18), Demand: 1366
+53: (-5, 26), Demand: 230
+54: (1, 23), Demand: 4
+55: (-6, 5), Demand: 12
+56: (-6, 6), Demand: 145
+57: (-9, 6), Demand: 7149
+58: (-9, 7), Demand: 2250
+59: (-12, 5), Demand: 383
+60: (-12, 6), Demand: 134
+61: (-11, 3), Demand: 1947
+62: (-11, 4), Demand: 182
+63: (-14, 4), Demand: 3934
+64: (-14, 5), Demand: 468
+65: (-15, 4), Demand: 18
+66: (-15, 5), Demand: 133
+67: (-16, 7), Demand: 2340
+68: (-16, 8), Demand: 754
+69: (-15, 10), Demand: 1264
+70: (-20, 10), Demand: 806
+71: (-5, 19), Demand: 3665
+72: (-9, -11), Demand: 2452

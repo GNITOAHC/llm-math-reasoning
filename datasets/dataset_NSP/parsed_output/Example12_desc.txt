@@ -1,0 +1,25 @@
+[METADATA]
+Name: NurseSchedulingWeek1
+Type: NSP, Nurse Scheduling Problem
+
+[NSP_DATA_INFO]
+LengthOfSchedule: 7
+NumberOfEmployees: 20
+NumberOfShifts: 2
+ShiftNames: [D, A] 
+
+[SHIFT_INFO]
+D, StartTime(min): 360, Duration(min): 480, MinBlockLength: 2, MaxBlockLength: 6
+A, StartTime(min): 840, Duration(min): 480, MinBlockLength: 2, MaxBlockLength: 5
+
+[SHIFT_TABLE]
+# Employee requirements for each shift on each day
+D: [9, 9, 9, 9, 9, 9, 5]
+A: [7, 7, 7, 7, 7, 3, 7]
+
+[BLOCK_CONSTRAINTS]
+WorkBlockLength: min 4, max 7
+OffBlockLength: min 2, max 4
+
+[FORBIDDEN_SEQUENCES]
+[A, D]

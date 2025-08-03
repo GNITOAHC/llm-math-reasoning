@@ -1,0 +1,117 @@
+[Unique TSP Types and Formats]
+==TSP Types==
+{'TSP (M.~Hofmeister)', 'TSP'}
+
+==Node Coordinate Types==
+{'NO_COORDS', None}
+
+==Edge Data Formats==
+{None}
+
+==Edge Weight Formats==
+{None,
+ 'FULL_MATRIX',
+ 'FUNCTION',
+ 'LOWER_DIAG_ROW',
+ 'UPPER_DIAG_ROW',
+ 'UPPER_ROW'}
+
+==Edge Weight Types==
+{'ATT', 'EXPLICIT', 'EUC_2D', 'GEO', 'CEIL_2D'}
+
+==Display Data Types==
+{'NO_DISPLAY', 'TWOD_DISPLAY', 'COORD_DISPLAY', None}
+
+-------------------------
+== TSP Data Format ==
+[ 0 ]
+{'display_data_type': None,
+ 'edge_weight_format': None,
+ 'edge_weight_type': 'EUC_2D',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/a280.tsp
+[ 1 ]
+{'display_data_type': 'COORD_DISPLAY',
+ 'edge_weight_format': None,
+ 'edge_weight_type': 'GEO',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/ali535.tsp
+[ 2 ]
+{'display_data_type': None,
+ 'edge_weight_format': None,
+ 'edge_weight_type': 'ATT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/att48.tsp
+[ 3 ]
+{'display_data_type': 'TWOD_DISPLAY',
+ 'edge_weight_format': 'UPPER_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/bayg29.tsp
+[ 4 ]
+{'display_data_type': 'TWOD_DISPLAY',
+ 'edge_weight_format': 'FULL_MATRIX',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/bays29.tsp
+[ 5 ]
+{'display_data_type': None,
+ 'edge_weight_format': 'UPPER_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/brazil58.tsp
+[ 6 ]
+{'display_data_type': 'COORD_DISPLAY',
+ 'edge_weight_format': 'FUNCTION',
+ 'edge_weight_type': 'GEO',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/burma14.tsp
+[ 7 ]
+{'display_data_type': 'TWOD_DISPLAY',
+ 'edge_weight_format': 'LOWER_DIAG_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/dantzig42.tsp
+[ 8 ]
+{'display_data_type': None,
+ 'edge_weight_format': None,
+ 'edge_weight_type': 'CEIL_2D',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/dsj1000.tsp
+[ 9 ]
+{'display_data_type': None,
+ 'edge_weight_format': 'LOWER_DIAG_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/fri26.tsp
+[ 10 ]
+{'display_data_type': 'TWOD_DISPLAY',
+ 'edge_weight_format': 'LOWER_DIAG_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': 'NO_COORDS',
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/pa561.tsp
+[ 11 ]
+{'display_data_type': 'NO_DISPLAY',
+ 'edge_weight_format': 'UPPER_DIAG_ROW',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP (M.~Hofmeister)'}
+File: dataset_tsp/all_tsp/si1032.tsp
+[ 12 ]
+{'display_data_type': None,
+ 'edge_weight_format': 'FULL_MATRIX',
+ 'edge_weight_type': 'EXPLICIT',
+ 'node_coord_type': None,
+ 'tsp_type': 'TSP'}
+File: dataset_tsp/all_tsp/swiss42.tsp

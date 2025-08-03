@@ -1,0 +1,13 @@
+There is 1000 mg of gold available that is needed to make long and short cables. Long cables require 10 mg of gold while short cables require 7 mg of gold. Because of their compact size, at least 5 times the number of short cables are needed than the long cables. In addition, there needs to be at least 10 long cables made. If each long cable sold results in a $12 profit and each short cable sold results in a $5 profit, how many of each type of cable should be made to maximize profit?
+
+[ Objective Declaration ]
+MAXIMIZE, profit = 12*long + 5*short_cables
+
+[ const_type: linear ]
+10*long + 7*short_cables <= 1000
+
+[ const_type: xby ]
+short_cables >= 5 * long
+
+[ const_type: lowerbound ]
+long >= 10

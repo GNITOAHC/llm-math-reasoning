@@ -1,0 +1,197 @@
+[METADATA]
+File: E481-38k
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 38
+Total Cost: 1656.662
+Depot: Node 481
+
+[ROUTES]
+Route 1:
+Total Demand: 990
+Cost: 53.5699
+Customers: [132, 182, 240, 306, 307, 381, 382, 464, 463, 462, 380, 379, 305, 239, 181, 131, 89]
+
+Route 2:
+Total Demand: 964
+Cost: 50.2677
+Customers: [76, 116, 163, 219, 283, 282, 353, 354, 355, 356, 284, 220, 164, 117, 77]
+
+Route 3:
+Total Demand: 916
+Cost: 17.3417
+Customers: [22, 46, 45, 21, 5]
+
+Route 4:
+Total Demand: 960
+Cost: 12.3246
+Customers: [10, 28, 27, 9]
+
+Route 5:
+Total Demand: 916
+Cost: 17.3417
+Customers: [23, 47, 48, 24, 8]
+
+Route 6:
+Total Demand: 872
+Cost: 21.6619
+Customers: [26, 52, 53, 54, 55, 29]
+
+Route 7:
+Total Demand: 976
+Cost: 43.5022
+Customers: [86, 177, 235, 301, 375, 374, 300, 234, 127, 85, 51, 25]
+
+Route 8:
+Total Demand: 991
+Cost: 48.5422
+Customers: [70, 108, 154, 208, 270, 340, 339, 417, 418, 419, 341, 271, 209, 155, 109, 71]
+
+Route 9:
+Total Demand: 945
+Cost: 43.6262
+Customers: [30, 58, 94, 189, 249, 317, 393, 394, 318, 250, 190, 138]
+
+Route 10:
+Total Demand: 936
+Cost: 21.3417
+Customers: [13, 33, 61, 62, 34, 2]
+
+Route 11:
+Total Demand: 996
+Cost: 23.6619
+Customers: [16, 38, 68, 67, 37, 15, 14]
+
+Route 12:
+Total Demand: 960
+Cost: 12.3246
+Customers: [3, 17, 18, 4]
+
+Route 13:
+Total Demand: 600
+Cost: 8.3246
+Customers: [6, 7]
+
+Route 14:
+Total Demand: 977
+Cost: 62.8399
+Customers: [156, 210, 272, 342, 420, 421, 422, 423, 424, 425, 347, 346, 345, 344, 343, 273, 211, 157, 110]
+
+Route 15:
+Total Demand: 977
+Cost: 68.5093
+Customers: [123, 172, 229, 293, 294, 366, 446, 447, 448, 449, 450, 451, 452, 453, 371, 297, 298, 232, 175]
+
+Route 16:
+Total Demand: 989
+Cost: 49.3542
+Customers: [63, 99, 144, 196, 197, 198, 199, 200, 201, 202, 148, 149, 104, 66]
+
+Route 17:
+Total Demand: 1000
+Cost: 24.902
+Customers: [40, 41, 42, 43, 44, 20, 19]
+
+Route 18:
+Total Demand: 991
+Cost: 48.1108
+Customers: [78, 118, 166, 222, 286, 358, 438, 439, 440, 360, 359, 287, 223, 167, 119, 79]
+
+Route 19:
+Total Demand: 995
+Cost: 61.6247
+Customers: [90, 183, 241, 308, 309, 310, 384, 385, 386, 387, 388, 389, 390, 314, 246, 187, 92]
+
+Route 20:
+Total Demand: 997
+Cost: 73.371
+Customers: [97, 194, 254, 322, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 331, 332, 333, 334, 335, 204]
+
+Route 21:
+Total Demand: 975
+Cost: 55.6319
+Customers: [128, 178, 236, 302, 376, 458, 457, 456, 455, 454, 372, 373, 299, 233, 176, 126, 84]
+
+Route 22:
+Total Demand: 986
+Cost: 46.5258
+Customers: [75, 114, 113, 159, 213, 275, 274, 212, 158, 112, 111, 73, 72]
+
+Route 23:
+Total Demand: 982
+Cost: 47.3012
+Customers: [39, 69, 107, 153, 207, 269, 268, 338, 416, 415, 337, 267, 206, 152, 106]
+
+Route 24:
+Total Demand: 944
+Cost: 46.9392
+Customers: [88, 130, 180, 238, 304, 378, 461, 460, 459, 377, 303, 237, 179, 129, 87]
+
+Route 25:
+Total Demand: 980
+Cost: 36.6868
+Customers: [60, 96, 140, 192, 252, 320, 319, 251, 191, 139, 95, 59]
+
+Route 26:
+Total Demand: 977
+Cost: 69.399
+Customers: [142, 255, 323, 324, 325, 326, 327, 328, 329, 330, 409, 410, 411, 412, 413, 414, 336, 266, 205, 151]
+
+Route 27:
+Total Demand: 989
+Cost: 71.5345
+Customers: [74, 160, 214, 276, 277, 278, 348, 426, 427, 428, 429, 349, 350, 430, 431, 351, 280, 281, 218]
+
+Route 28:
+Total Demand: 940
+Cost: 56.7396
+Customers: [125, 174, 231, 296, 370, 369, 368, 367, 295, 230, 173, 124, 83, 50]
+
+Route 29:
+Total Demand: 959
+Cost: 69.0238
+Customers: [133, 184, 242, 383, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 391, 315, 247, 136]
+
+Route 30:
+Total Demand: 300
+Cost: 6.3246
+Customers: [1]
+
+Route 31:
+Total Demand: 940
+Cost: 56.7985
+Customers: [98, 143, 195, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 203, 150, 105]
+
+Route 32:
+Total Demand: 978
+Cost: 62.0369
+Customers: [165, 221, 285, 357, 437, 436, 435, 434, 433, 432, 352, 279, 215, 216, 217, 161, 162, 115]
+
+Route 33:
+Total Demand: 983
+Cost: 59.2686
+Customers: [93, 137, 188, 248, 316, 392, 476, 477, 478, 479, 395, 396, 480, 397, 321, 253, 193, 141]
+
+Route 34:
+Total Demand: 958
+Cost: 47.3701
+Customers: [49, 122, 170, 226, 227, 291, 363, 362, 290, 289, 225, 169, 121, 81]
+
+Route 35:
+Total Demand: 992
+Cost: 51.1292
+Customers: [56, 91, 134, 185, 243, 244, 311, 312, 313, 245, 186, 135, 57]
+
+Route 36:
+Total Demand: 987
+Cost: 40.9871
+Customers: [35, 64, 100, 101, 145, 146, 147, 102, 103, 65, 36]
+
+Route 37:
+Total Demand: 960
+Cost: 13.4049
+Customers: [12, 32, 31, 11]
+
+Route 38:
+Total Demand: 994
+Cost: 57.0176
+Customers: [80, 120, 168, 224, 288, 361, 441, 442, 443, 444, 445, 365, 364, 292, 228, 171, 82]

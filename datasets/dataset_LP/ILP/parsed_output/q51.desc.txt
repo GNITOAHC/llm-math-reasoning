@@ -1,0 +1,10 @@
+A school employs staff and substitute teachers. Per shift, staff teachers work 6 hours and get paid $300. Per shift, substitute teachers work 3 hours and get paid $100. For the summer term, the school requires 1000 hours of teaching availability. If the school has a budget of $40000, how many of each teacher should be hired to minimize the total number of teachers?
+
+[ Objective Declaration ]
+MINIMIZE, 1*staff + 1*substitute_teachers
+
+[ const_type: linear ]
+6*staff + 3*substitute_teachers >= 1000
+
+[ const_type: linear ]
+300*staff + 100*substitute_teachers <= 40000

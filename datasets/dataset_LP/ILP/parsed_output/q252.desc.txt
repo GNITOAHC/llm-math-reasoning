@@ -1,0 +1,16 @@
+A candle-making company can move their inventory of candles using freight and air. Freight can transport 5 tons per trip while using air can transport 3 tons per trip. Since freight take longer, the cost for each freight trip is $300 while the cost over air for each trip is $550. The company needs to transport at least 200 tons of candles and they have a budget of $20000. Additionally, due to some urgent orders, at least 30% of tons of candles must be transported through air. There must also be at least 5 trips through freight. How many of trip by each should be scheduled to minimize the total number of trips?
+
+[ Objective Declaration ]
+MINIMIZE, 1*air + 1*air
+
+[ const_type: linear ]
+5*freight + 3*air >= 200
+
+[ const_type: linear ]
+300*freight + 550*air <= 20000
+
+[ const_type: ratio ]
+air >= 0.3 * (air + freight)
+
+[ const_type: lowerbound ]
+air >= 5

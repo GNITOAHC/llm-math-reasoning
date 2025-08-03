@@ -1,0 +1,8 @@
+[METADATA]
+File: E361-33k
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 33
+Total Cost: 1435.9047
+Depot: Node 361
+
+[ROUTES]

@@ -1,0 +1,16 @@
+A high rise building is buying two types of furnaces, a new model and an old model. A new model furnace can heat 10 apartments and consumes 200 kWh per day. An old model can heat 15 apartments and consumes 250 kWh per day. Since the old model is harder to find, at most 35% of the furnaces can be the old model and at least 5 new model furnaces should be used. If the high rise needs to heat at least 200 apartments and has 3500 kWh of electricity available, how many of each furnace should be purchase to minimize the total number of furnaces?
+
+[ Objective Declaration ]
+MINIMIZE, 1*new_model + 1*old_model
+
+[ const_type: ratio ]
+old_model <= 0.35 * (old_model + new_model)
+
+[ const_type: lowerbound ]
+new_model >= 5
+
+[ const_type: linear ]
+10*new_model + 15*old_model >= 200
+
+[ const_type: linear ]
+200*new_model + 250*old_model <= 3500

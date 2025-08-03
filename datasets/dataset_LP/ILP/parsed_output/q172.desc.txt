@@ -1,0 +1,13 @@
+A mail delivery service in an island village delivers mail by regular and speed boats. A regular boat can carry 20 pieces of mail per trip and uses 10 liters of gas. A speed boat can carry 30 pieces of mail per trip and uses 20 liters of gas. There can be at most 20 regular boat trips. Since customers want their mail as fast as possible, at least 50% of the trips must be made by speed boats. If the service needs to deliver 1000 pieces of mail, how many trips of each should be made to minimize the total amount of gas consumed?
+
+[ Objective Declaration ]
+MINIMIZE, amount_of_gas = 10*regular + 20*speed_boats
+
+[ const_type: upperbound ]
+regular <= 20
+
+[ const_type: ratio ]
+speed_boats >= 0.5 * (speed_boats + regular)
+
+[ const_type: linear ]
+20*regular + 30*speed_boats >= 1000

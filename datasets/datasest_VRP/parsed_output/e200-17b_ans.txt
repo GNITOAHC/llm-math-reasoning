@@ -1,0 +1,92 @@
+[METADATA]
+File: E200-17b
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 17
+Total Cost: 1291.445
+Depot: Node 200
+
+[ROUTES]
+Route 1:
+Total Demand: 194
+Cost: 117.0728
+Customers: [89, 166, 60, 84, 17, 113, 86, 140, 38, 14, 43, 15, 57, 144, 137]
+
+Route 2:
+Total Demand: 197
+Cost: 57.1597
+Customers: [59, 151, 92, 37, 98, 100, 193, 91, 85, 93, 104, 99, 96, 6]
+
+Route 3:
+Total Demand: 200
+Cost: 130.7575
+Customers: [82, 46, 124, 168, 47, 36, 143, 49, 64, 11, 175, 107, 19, 123]
+
+Route 4:
+Total Demand: 200
+Cost: 122.7186
+Customers: [101, 122, 20, 188, 66, 71, 65, 136, 35, 135, 164, 34, 78, 50]
+
+Route 5:
+Total Demand: 195
+Cost: 83.2312
+Customers: [195, 134, 163, 24, 29, 121, 169, 129, 79, 185, 158, 3, 77, 184]
+
+Route 6:
+Total Demand: 197
+Cost: 70.375
+Customers: [2, 178, 115, 145, 41, 22, 133, 75, 74, 171, 73, 21, 105]
+
+Route 7:
+Total Demand: 200
+Cost: 99.5196
+Customers: [54, 130, 165, 55, 25, 170, 67, 23, 186, 56, 197, 72, 40]
+
+Route 8:
+Total Demand: 200
+Cost: 97.0945
+Customers: [189, 10, 108, 90, 126, 63, 181, 32, 131, 160, 128, 30, 70]
+
+Route 9:
+Total Demand: 200
+Cost: 83.14
+Customers: [5, 173, 61, 16, 141, 191, 44, 119, 192, 142, 42, 172, 87]
+
+Route 10:
+Total Demand: 200
+Cost: 73.4343
+Customers: [146, 88, 148, 159, 62, 182, 48, 7, 194, 106, 153, 52]
+
+Route 11:
+Total Demand: 194
+Cost: 71.2099
+Customers: [26, 149, 179, 155, 4, 139, 187, 39, 110, 198, 180]
+
+Route 12:
+Total Demand: 199
+Cost: 49.6918
+Customers: [76, 196, 116, 68, 80, 150, 177, 109, 12, 138, 154]
+
+Route 13:
+Total Demand: 198
+Cost: 47.2643
+Customers: [27, 167, 127, 190, 31, 162, 69, 132, 176, 111, 28]
+
+Route 14:
+Total Demand: 195
+Cost: 66.1313
+Customers: [147, 118, 83, 199, 125, 45, 174, 8, 114, 18]
+
+Route 15:
+Total Demand: 199
+Cost: 77.0914
+Customers: [1, 51, 103, 161, 9, 120, 81, 33, 157, 102]
+
+Route 16:
+Total Demand: 199
+Cost: 41.0811
+Customers: [112, 183, 94, 95, 97, 117, 13, 58, 152, 53]
+
+Route 17:
+Total Demand: 19
+Cost: 4.4721
+Customers: [156]

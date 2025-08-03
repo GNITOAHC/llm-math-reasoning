@@ -1,0 +1,16 @@
+A laundromat can buy two types of washing machines, a top-loading model and a front-loading model. The top-loading model can wash 50 items per day while the front-loading model can wash 75 items per day. The top-loading model consumes 85 kWh per day while the front-loading model consumes 100 kWh per day. The laundromat must be able to wash at least 5000 items per day and has available 7000 kWh per day. Since the top-loading machine are harder to use, at most 40% of the machines can be top-loading. Further, at least 10 machines should be front-loading. How many of each machine should the laundromat buy to minimize the total number of washing machines?
+
+[ Objective Declaration ]
+MINIMIZE, 1*top-loading_model + 1*front-loading_model
+
+[ const_type: linear ]
+50*top-loading_model + 75*front-loading_model >= 5000
+
+[ const_type: linear ]
+85*top-loading_model + 100*front-loading_model <= 7000
+
+[ const_type: ratio ]
+top-loading_model <= 0.4 * (top-loading_model + front-loading_model)
+
+[ const_type: lowerbound ]
+front-loading_model >= 10

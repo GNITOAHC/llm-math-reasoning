@@ -1,0 +1,16 @@
+A bakery makes fiber supplemented brownies and lemon squares. Each brownie requires 5 units of chocolate mix and 4 units of fiber. Each lemon square requires 7 units of lemon mix and 6 units of fiber. Lemon squares sell much faster and thus the number of lemon squares made must be larger than the number of brownies made. However, to please all customers, at least 40% of the items made must be brownies. If the bakery has 2500 units of chocolate mix and 3300 units of lemon mix, how many of each should be made to minimize the total amount of fiber needed?
+
+[ Objective Declaration ]
+MINIMIZE, total_amount_of_fiber = 4*brownies + 6*lemon_squares
+
+[ const_type: xy ]
+lemon_squares > brownies
+
+[ const_type: ratio ]
+brownies >= 0.4 * (brownies + lemon_squares)
+
+[ const_type: linear ]
+5*brownies <= 2500
+
+[ const_type: linear ]
+7*lemon_squares <= 3300

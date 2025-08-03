@@ -1,0 +1,13 @@
+A water company sells water in glass and plastic bottles. A glass bottle can hole 500 ml of water while a plastic bottle can hold 750 ml of water. Because most customer prefer plastic bottles, the number of plastic bottles must be at least 3 times the number of glass bottles. However, there must be at least 20 glass bottles. If the company has available 250000 ml of water, how many of each bottle should be made to maximize the total number of bottles?
+
+[ Objective Declaration ]
+MAXIMIZE, 1*glass + 1*plastic
+
+[ const_type: lowerbound ]
+glass >= 20
+
+[ const_type: xby ]
+plastic >= 3 * glass
+
+[ const_type: linear ]
+500*glass + 750*plastic <= 250000

@@ -1,0 +1,13 @@
+A coffee shop sells mochas and regular coffees. Each mocha requires 3 units of coffee powder and 6 units of milk. Each regular coffee requires 6 units of coffee powder and 2 units of milk. The shop has available 400 units of coffee powder and 500 units of milk. Making a mocha takes 5 minutes and making a regular coffee takes 3 minutes. Since mochas are more popular among people, the shop must make at least 3 times as many mochas as regular coffees. How many of each should they make to minimize the total production time?
+
+[ Objective Declaration ]
+MINIMIZE, total_production_time = 5*mochas + 3*regular_coffees
+
+[ const_type: linear ]
+3*mochas + 6*regular_coffees <= 400
+
+[ const_type: linear ]
+6*mochas + 2*regular_coffees <= 500
+
+[ const_type: xby ]
+mochas >= 3 * regular_coffees

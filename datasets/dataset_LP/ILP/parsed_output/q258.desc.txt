@@ -1,0 +1,10 @@
+Platinum in combination with palladium has been used as a catalyst in cars and it changes carbon monoxide, which is toxic, into carbon dioxide. An automotive company is comparing two different catalysts, a palladium-heavy catalyst and a platinum-heavy catalyst. The process with a palladium-heavy catalyst requires 15 units of platinum and 25 units of palladium and can perform the conversion to carbon dioxide at a rate of 5 units per second. A platinum-heavy catalyst requires 20 units of platinum and 14 units of palladium and converts to carbon dioxide at a rate of 4 units per second. There are 450 units of platinum and 390 units of palladium available. How many of each catalyst should be used to maximize the amount converted into carbon dioxide?
+
+[ Objective Declaration ]
+MAXIMIZE, amount_converted_into_carbon_dioxide = 5*palladium-heavy_catalyst + 4*platinum-heavy_catalyst
+
+[ const_type: linear ]
+14*platinum-heavy_catalyst + 25*palladium-heavy_catalyst <= 390
+
+[ const_type: linear ]
+15*palladium-heavy_catalyst + 20*platinum-heavy_catalyst <= 450

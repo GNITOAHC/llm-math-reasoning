@@ -1,0 +1,10 @@
+Ayse produces a plant growth compound by mixing two types of fertilizer: C and Y. This growth compound must contain at least 5 units of nitrous oxide and 8 units of vitamin mix. Fertilizer C and Y cost $2 and $3 per kg respectively. Fertilizer C contains 1.5 units of nitrous oxide per kg and 3 units of vitamin mix per kg. Fertilizer Y contains 5 units of nitrous oxide per kg and 1 unit of vitamin mix per kg. Determine the minimum cost of Ayse's compound.
+
+[ Objective Declaration ]
+MINIMIZE, cost = 2*C + 3*Y.
+
+[ const_type: linear ]
+1.5*C + 5*Y. >= 5
+
+[ const_type: linear ]
+3*C + 1*Y. >= 8

@@ -1,0 +1,13 @@
+A banana company sells their bananas in small and large crates. A small crate can hold 20 bananas while a large crate can hole 50 bananas. Since large crates are more manageable, the number of large crates must be at least twice the number of small crates. However, at least 5 small crates should be used. If the company has available 500 bananas, how many of each crate should the company use to maximize the total number of crates produced?
+
+[ Objective Declaration ]
+MAXIMIZE, 1*small + 1*large
+
+[ const_type: xby ]
+large >= 2 * small
+
+[ const_type: lowerbound ]
+small >= 5
+
+[ const_type: linear ]
+20*small + 50*large <= 500

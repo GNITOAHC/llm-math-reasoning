@@ -1,0 +1,16 @@
+A clinic makes batches of vitamin shots and pills. Each batch of vitamin shots requires 30 units of vitamin C and 40 units of vitamin D. Each batch of vitamin pills requires 50 units of vitamin C and 30 units of vitamin D. Since pills are more popular, the number of batches of vitamin pills must be larger than the number of batches of vitamin shots. Further, the clinic can make at most 10 batches of vitamin shots. The clinic has available 1200 units of vitamin C and 1500 units of vitamin D. If each batch of vitamin shots can supply 10 people and each batch of vitamin pills can supply 7 people, how many batches of each should be made to maximize the number of people that can be supplied?
+
+[ Objective Declaration ]
+MAXIMIZE, number_of_people = 10*vitamin_shots + 7*pills
+
+[ const_type: xy ]
+pills > vitamin_shots
+
+[ const_type: upperbound ]
+vitamin_shots <= 10
+
+[ const_type: linear ]
+30*vitamin_shots + 50*pills <= 1200
+
+[ const_type: linear ]
+40*vitamin_shots + 30*pills <= 1500

@@ -1,0 +1,16 @@
+A lawn mowing service provides neighborhood services using small teams and large teams. A small team requires 3 employees and can mow 50 sq ft of lawn. A large team requires 5 employees and can mow 80 sq ft of lawn. The company has 150 employees available. Because most people have smaller lawns in the city, the number of small teams must be at least 3 times as much as the number of large teams. In addition, to make sure the company can meet all demands, there has to be at least 6 large teams and at least 10 small teams. How many of each team type should be used to maximize the amount of lawn that can be mowed?
+
+[ Objective Declaration ]
+MAXIMIZE, amount_of_lawn = 50*small_teams + 80*large_teams
+
+[ const_type: linear ]
+3*small_teams + 5*large_teams <= 150
+
+[ const_type: xby ]
+small_teams >= 3 * large_teams
+
+[ const_type: lowerbound ]
+large_teams >= 6
+
+[ const_type: lowerbound ]
+small_teams >= 10

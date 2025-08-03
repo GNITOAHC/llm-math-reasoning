@@ -1,0 +1,8 @@
+[METADATA]
+File: E421-41k
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 41
+Total Cost: 1934.9555
+Depot: Node 421
+
+[ROUTES]

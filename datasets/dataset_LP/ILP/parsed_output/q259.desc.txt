@@ -1,0 +1,10 @@
+There are two ways to extract a metal from mined ores. The first way is to use process J and the second is process P. Process J can extract 5 units of metal using 8 units of water and produces 3 units of pollution. Process P can extract 9 units of metal using 6 units of water and produces 5 units of pollution. There can be at most 1500 units of water 1350 units of pollution. How many of each type of processes should be performed to maximize the amount of metal extracted?
+
+[ Objective Declaration ]
+MAXIMIZE, amount_of_metal = 5*process_J + 9*process_P.
+
+[ const_type: linear ]
+8*process_J + 6*process_P. <= 1500
+
+[ const_type: linear ]
+3*process_J + 5*process_P. <= 1350

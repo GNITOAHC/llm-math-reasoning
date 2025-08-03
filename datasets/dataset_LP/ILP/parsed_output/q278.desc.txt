@@ -1,0 +1,16 @@
+A keyboard manufacturer makes mechanical and standard keyboards. Mechanical keyboards are becoming more popular and thus the manufacturer aims to have five times as many mechanical than standard keyboards. A mechanical keyboard costs five units of plastic and two units of solder whereas a standard keyboard costs two units of plastic and one unit of solder. There are still customers that prefer a less noisy alternative. Therefore, there must be at least 30 standard keyboards. If the company has available 1000 units of plastic and 250 units of solder, how many of each type should be manufactured to maximize the total number of keyboards?
+
+[ Objective Declaration ]
+MAXIMIZE, 1*mechanical + 1*standard_keyboards
+
+[ const_type: xby ]
+mechanical >= 5 * standard_keyboards
+
+[ const_type: lowerbound ]
+standard_keyboards >= 30
+
+[ const_type: linear ]
+5*mechanical + 2*standard_keyboards <= 1000
+
+[ const_type: linear ]
+2*mechanical + 1*standard_keyboards <= 250

@@ -1,0 +1,13 @@
+An dog hospital has 2000 units of tooth medication to make both small and large bones. A small bone requires 10 units of tooth medication and 12 units of meat. A large bone requires 15 units of tooth medication and 15 units of meat. Since most dogs prefer the small bones, at least 50% of the bones made must be small. In addition, the hospital must make at least 30 large bones. How many of each bone should be made to minimize the amount of meat needed?
+
+[ Objective Declaration ]
+MINIMIZE, amount_of_meat = 12*small + 15*large_bones
+
+[ const_type: linear ]
+10*small + 15*large_bones <= 2000
+
+[ const_type: ratio ]
+small >= 0.5 * (small + large_bones)
+
+[ const_type: lowerbound ]
+large_bones >= 30

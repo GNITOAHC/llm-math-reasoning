@@ -1,0 +1,66 @@
+[METADATA]
+File: E051-05e
+COMMENT: Christofides and Eilon, 1969
+
+[VRP_DATA_INFO]
+Type: CVRP (Capacitated Vehicle Routing Problem)
+Dimension: 51
+Distance Metric: Euclidean (2D)
+Vehicle Capacity: 160
+Number of Vehicles: 5
+
+[Depot]
+Node 1: Coordinates: (30, 40), Demand: 0
+
+[Customer Nodes]
+# Format: Node ID: Coordinates (x, y), Demand
+2: (37, 52), Demand: 7
+3: (49, 49), Demand: 30
+4: (52, 64), Demand: 16
+5: (20, 26), Demand: 9
+6: (40, 30), Demand: 21
+7: (21, 47), Demand: 15
+8: (17, 63), Demand: 19
+9: (31, 62), Demand: 23
+10: (52, 33), Demand: 11
+11: (51, 21), Demand: 5
+12: (42, 41), Demand: 19
+13: (31, 32), Demand: 29
+14: (5, 25), Demand: 23
+15: (12, 42), Demand: 21
+16: (36, 16), Demand: 10
+17: (52, 41), Demand: 15
+18: (27, 23), Demand: 3
+19: (17, 33), Demand: 41
+20: (13, 13), Demand: 9
+21: (57, 58), Demand: 28
+22: (62, 42), Demand: 8
+23: (42, 57), Demand: 8
+24: (16, 57), Demand: 16
+25: (8, 52), Demand: 10
+26: (7, 38), Demand: 28
+27: (27, 68), Demand: 7
+28: (30, 48), Demand: 15
+29: (43, 67), Demand: 14
+30: (58, 48), Demand: 6
+31: (58, 27), Demand: 19
+32: (37, 69), Demand: 11
+33: (38, 46), Demand: 12
+34: (46, 10), Demand: 23
+35: (61, 33), Demand: 26
+36: (62, 63), Demand: 17
+37: (63, 69), Demand: 6
+38: (32, 22), Demand: 9
+39: (45, 35), Demand: 15
+40: (59, 15), Demand: 14
+41: (5, 6), Demand: 7
+42: (10, 17), Demand: 27
+43: (21, 10), Demand: 13
+44: (5, 64), Demand: 11
+45: (30, 15), Demand: 16
+46: (39, 10), Demand: 10
+47: (32, 39), Demand: 5
+48: (25, 32), Demand: 25
+49: (25, 55), Demand: 17
+50: (48, 28), Demand: 18
+51: (56, 37), Demand: 10

@@ -1,0 +1,19 @@
+A flooring company produces engineered laminate planks and carpets. The chief marketer reports an expected demand of at least 15,000 square feet of laminate planks and 5,000 square feet of carpets each week. The shipping contract requires a total of at least 50,000 square feet of products each week. However, due to a shortage of raw materials, no more than 40,000 square feet of laminate planks and 20,000 square feet of carpets can be produced weekly. If a square foot of laminate planks produces a $2.1 profit and a square foot of carpets yields a $3.3 profit, how many of each type of product should be made weekly to maximize the company's profit?
+
+[ Objective Declaration ]
+MAXIMIZE, profit = 2.1*laminate_planks + 3.3*carpets
+
+[ const_type: lowerbound ]
+laminate_planks >= 15000
+
+[ const_type: lowerbound ]
+carpets >= 5000
+
+[ const_type: sum ]
+laminate_planks + carpets >= 50000
+
+[ const_type: upperbound ]
+laminate_planks <= 40000
+
+[ const_type: upperbound ]
+carpets <= 20000

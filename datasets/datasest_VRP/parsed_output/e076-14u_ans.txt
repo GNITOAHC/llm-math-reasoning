@@ -1,0 +1,77 @@
+[METADATA]
+File: E076-14u
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 14
+Total Cost: 1028.791
+Depot: Node 76
+
+[ROUTES]
+Route 1:
+Total Demand: 98
+Cost: 116.3283
+Customers: [61, 69, 36, 71, 60, 70, 20, 37]
+
+Route 2:
+Total Demand: 87
+Cost: 77.7819
+Customers: [35, 14, 59, 53]
+
+Route 3:
+Total Demand: 99
+Cost: 62.1003
+Customers: [30, 48, 47, 21, 74]
+
+Route 4:
+Total Demand: 100
+Cost: 93.3612
+Customers: [12, 25, 55, 18, 50, 32]
+
+Route 5:
+Total Demand: 99
+Cost: 73.5606
+Customers: [16, 49, 24, 3, 44, 17]
+
+Route 6:
+Total Demand: 98
+Cost: 76.1365
+Customers: [7, 11, 66, 65]
+
+Route 7:
+Total Demand: 99
+Cost: 85.8182
+Customers: [19, 54, 13, 57, 15, 5, 29]
+
+Route 8:
+Total Demand: 100
+Cost: 47.9198
+Customers: [45, 27, 52, 8, 46]
+
+Route 9:
+Total Demand: 98
+Cost: 95.1198
+Customers: [28, 22, 64, 42, 62]
+
+Route 10:
+Total Demand: 96
+Cost: 52.0014
+Customers: [26, 39, 9, 40]
+
+Route 11:
+Total Demand: 94
+Cost: 51.0635
+Customers: [6, 51, 33, 2, 68]
+
+Route 12:
+Total Demand: 100
+Cost: 84.5922
+Customers: [63, 23, 56, 41, 43, 1, 73]
+
+Route 13:
+Total Demand: 99
+Cost: 26.2266
+Customers: [75, 4, 34, 67]
+
+Route 14:
+Total Demand: 97
+Cost: 86.7811
+Customers: [58, 38, 10, 31, 72]

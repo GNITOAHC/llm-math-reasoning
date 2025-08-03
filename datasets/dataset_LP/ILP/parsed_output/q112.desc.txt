@@ -1,0 +1,13 @@
+A sailor can eat either a crab cakes or a lobster roll for his meals. He needs to ensure he gets at least 80 units of vitamin A and 100 units of vitamin C. Each crab cake contains 5 units of vitamin A and 7 units of vitamin C. Each lobster roll contains 8 units of vitamin A and 4 units of vitamin C. In addition, since lobster is more expensive, at most 40% of his meals should be lobster rolls. If each crab cake contains 4 units of unsaturated fat and each lobster roll contains 6 units of unsaturated fat, how many of each should he eat to minimize his unsaturated fat intake?
+
+[ Objective Declaration ]
+MINIMIZE, unsaturated_fat = 4*crab_cakes + 6*lobster_roll
+
+[ const_type: linear ]
+5*crab_cakes + 8*lobster_roll >= 80
+
+[ const_type: linear ]
+7*crab_cakes + 4*lobster_roll >= 100
+
+[ const_type: ratio ]
+lobster_roll <= 0.4 * (lobster_roll + crab_cakes)

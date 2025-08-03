@@ -1,0 +1,10 @@
+An ice cream store can buy two machines, a counter-top sized one and a fridge sized one, to make ice cream. The counter-top sized one can produce 80 cones worth of ice cream every day while the fridge sizes one can produce 150 cones worth of ice cream every day. The counter-top sized machine outputs 50 units of heat while the fridge sized one outputs 70 units of heat. The ice cream store can output at most 500 units of heat per day and must produce at least 1000 cones worth of ice cream. How many of each machine should they buy to minimize the total number of machines needed?
+
+[ Objective Declaration ]
+MINIMIZE, 1*counter-top_sized + 1*fridge_sized_one
+
+[ const_type: linear ]
+50*counter-top_sized + 70*fridge_sized_one <= 500
+
+[ const_type: linear ]
+80*counter-top_sized + 150*fridge_sized_one >= 1000

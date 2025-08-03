@@ -1,0 +1,13 @@
+A hospital hires ultrasound technicians and graduate researchers to image patients. An ultrasound technician works 8 hours per shift while a graduate researcher works 5 hours per shift. Ultrasound technicians are paid $300 per shift while graduate researchers are paid $100 per shift. However, due to regulations, there must be twice as many ultrasound technician shifts than graduate researcher shifts. Currently, the hospital needs 500 hours of ultrasound services to meet needs. If the hospital has a budget of $14000, how many of each worker certified to use the ultrasound should be scheduled to reduce the total number of workers?
+
+[ Objective Declaration ]
+MINIMIZE, 1*ultrasound_technicians + 1*graduate_researchers
+
+[ const_type: xby ]
+ultrasound_technicians >= 2 * ultrasound_technicians
+
+[ const_type: linear ]
+300*ultrasound_technicians + 100*graduate_researchers <= 14000
+
+[ const_type: linear ]
+5*ultrasound_technicians >= 500

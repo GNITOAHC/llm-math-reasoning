@@ -1,0 +1,10 @@
+Bob wants to design a diet consisting of protein bars and noodles. Assume that each serving of noodles costs $5 and contains 600 calories and 1.5 grams of protein. Assume that each serving of protein bar costs $2.5 and contains 250 calories and 5 grams of protein. He's interested in spending as little money as possible but he wants to ensure that his meals have at least 2000 calories and at least 16 grams of protein per day. Formulate a linear programming problem that will help minimize the cost of the diet.
+
+[ Objective Declaration ]
+MINIMIZE, cost = 5*noodles + 2.5*protein_bars
+
+[ const_type: linear ]
+600*noodles + 250*protein_bars >= 2000
+
+[ const_type: linear ]
+1.5*noodles + 5*protein_bars >= 16

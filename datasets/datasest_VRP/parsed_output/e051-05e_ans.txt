@@ -1,0 +1,32 @@
+[METADATA]
+File: E051-05e
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 5
+Total Cost: 524.611
+Depot: Node 51
+
+[ROUTES]
+Route 1:
+Total Demand: 159
+Cost: 99.3331
+Customers: [38, 9, 30, 34, 50, 16, 21, 29, 2, 11]
+
+Route 2:
+Total Demand: 149
+Cost: 118.5191
+Customers: [32, 1, 22, 20, 35, 36, 3, 28, 31, 26, 8]
+
+Route 3:
+Total Demand: 152
+Cost: 98.4517
+Customers: [27, 48, 23, 7, 43, 24, 25, 14, 6]
+
+Route 4:
+Total Demand: 157
+Cost: 109.056
+Customers: [18, 13, 41, 40, 19, 42, 17, 4, 47]
+
+Route 5:
+Total Demand: 160
+Cost: 99.2512
+Customers: [12, 37, 44, 15, 45, 33, 39, 10, 49, 5, 46]

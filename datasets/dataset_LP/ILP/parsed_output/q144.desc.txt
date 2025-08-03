@@ -1,0 +1,13 @@
+A lab has 1000 units of medicinal ingredients to make two pills, a large pill and a small pill. A large pill requires 3 units of medicinal ingredients and 2 units of filler. A small pill requires 2 units of medicinal ingredients and 1 unit of filler. The lab has to make at least 100 large pills. However, since small pills are more popular at least 60% of the total number of pills must be small. How many of each should be made to minimize the total number of filler material needed?
+
+[ Objective Declaration ]
+MINIMIZE, number_of_filler = 2*large_pill + 1*small_pill
+
+[ const_type: linear ]
+3*large_pill + 2*small_pill <= 1000
+
+[ const_type: lowerbound ]
+large_pill >= 100
+
+[ const_type: ratio ]
+small_pill >= 0.6 * (small_pill + large_pill)

@@ -1,0 +1,13 @@
+A lab has 20000 mg of mRNA anti-viral available to make children's and adult vaccines. Each children's vaccine contains 50 mg of mRNA and 50 mg of fever suppressant. Each adult vaccine contains 75 mg of mRNA and 75 mg of fever suppressant. Since adult vaccines are more essential, at least 70% of vaccines should be adult vaccines. However, at least 50 children's vaccines should be made. How many of each vaccine should be made to minimize the amount of fever suppressant used?
+
+[ Objective Declaration ]
+MINIMIZE, amount_of_fever_suppressant = 50*children's + 75*adult_vaccines
+
+[ const_type: linear ]
+50*children's + 75*adult_vaccines <= 20000
+
+[ const_type: ratio ]
+adult_vaccines >= 0.7 * (adult_vaccines + children's)
+
+[ const_type: lowerbound ]
+children's >= 50

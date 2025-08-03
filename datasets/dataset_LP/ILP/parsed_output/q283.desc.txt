@@ -1,0 +1,13 @@
+A chemical company uses two tests, a salinity test and a pH test. Each unit of the salinity test requires three probes. Whereas each unit of the pH test requires two probes. The chemical company must perform at least 250 pH tests. In total, at least 400 tests must be performed. Further, because of the importance of the salinity test, there must be at most 1.5 times more pH tests than salinity tests. How many times should each test be performed to minimize the total number of probes used?
+
+[ Objective Declaration ]
+MINIMIZE, number_of_probes = 3*salinity_test + 2*pH_test
+
+[ const_type: lowerbound ]
+pH_test >= 250
+
+[ const_type: sum ]
+salinity_test + pH_test >= 400
+
+[ const_type: xby ]
+pH_test <= 1.5 * salinity_test

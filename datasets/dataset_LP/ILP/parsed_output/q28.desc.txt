@@ -1,0 +1,10 @@
+A hobbyist makes model trains and planes using wood and paint. A model train requires 3 units of wood and 3 units of paint. A model plane requires 4 units of wood and 2 units of paint. The hobbyist has available 120 units of wood and 90 units of paint. If the profit per model train is $8 and the profit per model plane is $10, how many of each should be made to maximize his profit?
+
+[ Objective Declaration ]
+MAXIMIZE, profit = 8*model_trains + 10*planes
+
+[ const_type: linear ]
+3*model_trains + 4*planes <= 120
+
+[ const_type: linear ]
+3*model_trains + 2*planes <= 90

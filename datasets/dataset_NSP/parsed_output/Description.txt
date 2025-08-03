@@ -1,0 +1,51 @@
+[PROBLEM DESCRIPTION]
+The desc file contains the parsed data for the Nurse Scheduling Problem (NSP).
+It includes metadata, shift information, shift requirements, block constraints, and forbidden sequences.
+
+[NSP_DATA_INFO]
+# Type: NSP, Nurse Scheduling Problem
+# NumberOfShifts: Total number of shift types (excluding days-off)
+# ShiftNames: List of working shift names
+#  e.g., [D, A, N] for Day, Afternoon, and Night shifts
+#  for output [-] represents days-off shift
+# LengthOfSchedule: Number of days in the schedule (e.g., 7 for a weekly schedule)
+# NumberOfEmployees: Total number of nurses to be scheduled
+
+# The output schedule matrix will be a 2D array with dimensions
+#  e.g. if LengthOfSchedule is 5 and NumberOfEmployees is 3, the schedule will be a 5x3 matrix 
+#   where each row represents a nurse and each column represents a day:
+#   [x, x, x, x, x]
+#   [x, x, x, x, x]
+#   [x, x, x, x, x]
+#   where 'x' is a shift name for each day (e.g., D, A, N) or '-' for days-off
+
+[SHIFT_INFO]
+# Name: The name of the shift
+# ShiftName(Work) [D, A, N]: The name of the shift (D for Day, A for Afternoon, N for Night)
+# ShiftName(days-off) [-]: Shift: use '-' to represent days-off shift
+
+[SHIFT_TABLE]
+# StartTime: The start time of the shift in minutes
+# Duration: The duration of the shift in minutes
+# BlockLength: a consecutive days on the same shift,
+#  e.g., [D, D, D, D, A, N] is a block of 4 days on D, 1 day on A and 1 day on N
+# MinBlockLength: The minimum length of a block of consecutive days on the same shift
+# MaxBlockLength: The maximum length of a block of consecutive days on the same shift
+
+[BLOCK_CONSTRAINTS]
+# WorkBlock(D, N, A): employee's consecutive 'work days' must between MinWorkBlockLength and MaxWorkBlockLength
+# OffBlock(-): employee's consecutive 'days off' must between MinOffBlockLength and MaxOffBlockLength
+#  e.g., WorkBlock: (min 5, max 6), OffBlock(-): (min 3, max 4) means
+#  *Invalid* Shift Table: [D, D, A, N, -, -, D, D, A], because
+#   workblocks [D, D, A, N] has 4 days (less than 5) and [D, D, A] has 3 days (less than 5), offblocks [-, -] has 2 days (less than 3)
+#  *Valid* Shift Table:   [D, D, A, N, D, D, -, -, -], because
+#   workblocks [D, D, A, N, D, D] has 6 days (between 5 and 6) and offblocks [-, -] has 2 days (between 3 and 4)
+
+[FORBIDDEN_SEQUENCES]
+# Forbidden shift transitions (cannot be scheduled in this order):
+# shift_name1 shift_name2
+#  e.g., [D, A] : NOT ALLOWED for "Day shift followed by Afternoon shift"
+#  e.g., [D, N] : NOT ALLOWED for "Day shift followed by Night shift"
+# shift_name1 -> days-off(-) -> shift_name2
+#  e.g., [D, -, A] : NOT ALLOWED for "Day shift followed by a days-off day followed by Afternoon shift"
+#  e.g., [D, -, N] : NOT ALLOWED for "Day shift followed by a days-off day followed by Night shift"

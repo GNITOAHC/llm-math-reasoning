@@ -1,0 +1,27 @@
+[METADATA]
+File: E045-04f
+Type: HREAL (Heterogeneous Real-world VRP)
+Number of Routes: 4
+Total Cost: 723.541
+Depot: Node 45
+
+[ROUTES]
+Route 1:
+Total Demand: 1612
+Cost: 24.7238
+Customers: [24, 16, 2, 1, 15, 9]
+
+Route 2:
+Total Demand: 2010
+Cost: 147.5438
+Customers: [8, 19, 22, 23, 26, 25, 20, 21]
+
+Route 3:
+Total Demand: 1594
+Cost: 437.8067
+Customers: [43, 44, 28, 33, 29, 27, 6, 5, 7, 35, 3, 4, 14, 13, 12, 11, 18, 17, 10]
+
+Route 4:
+Total Demand: 2004
+Cost: 113.4669
+Customers: [37, 38, 36, 39, 40, 34, 31, 32, 30, 41, 42]
