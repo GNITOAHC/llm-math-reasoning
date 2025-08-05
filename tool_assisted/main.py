@@ -110,6 +110,7 @@ def _missing_required_context(code: str) -> bool:
     return not all(k in code for k in need)
 
 
+# main
 def run(input_path: str, log_file_path: str, reasoning):
     # Read the problem description from the input file
     with open(input_path, "r") as f:
@@ -277,7 +278,7 @@ def run(input_path: str, log_file_path: str, reasoning):
         llm_answer = ""
         correct_answer = ""
 
-    # Append output to specified log file
+
     with open(log_file_path, "w") as f:
         log_json = {
             "input_question": input_path,
