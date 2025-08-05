@@ -8,6 +8,7 @@ import dotenv
 import traceback 
 from contextlib import redirect_stdout, redirect_stderr  
 from pure_reasoning.reasoning_model import OpenAIReasoning
+# from specific_prompts.{gcp, tsp}_prompts import CODE_GENERATOR_PROMPT, FIX_CODE_PROMPT
 from tool_assisted.prompts import CODE_GENERATOR_PROMPT, FIX_CODE_PROMPT
 from general_prompts import prompts
 
