@@ -1,4 +1,0 @@
-Answer: 25
-History Answer: 25
-Lower Bound: 25
-Upper Bound: 25

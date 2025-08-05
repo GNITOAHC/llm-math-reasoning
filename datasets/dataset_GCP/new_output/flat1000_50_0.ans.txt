@@ -1,0 +1,4 @@
+Answer: 15
+History Answer: None
+Lower Bound: 15
+Upper Bound: 50

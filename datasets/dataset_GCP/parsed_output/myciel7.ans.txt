@@ -1,4 +1,0 @@
-Answer: 8
-History Answer: 8
-Lower Bound: 5
-Upper Bound: 8

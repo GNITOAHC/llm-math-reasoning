@@ -1,0 +1,4 @@
+Answer: 43
+History Answer: None
+Lower Bound: 43
+Upper Bound: 47

@@ -1,4 +1,0 @@
-Answer: 122
-History Answer: 122
-Lower Bound: None
-Upper Bound: 122

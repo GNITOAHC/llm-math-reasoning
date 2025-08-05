@@ -1,4 +1,0 @@
-Answer: 13
-History Answer: 13
-Lower Bound: None
-Upper Bound: None

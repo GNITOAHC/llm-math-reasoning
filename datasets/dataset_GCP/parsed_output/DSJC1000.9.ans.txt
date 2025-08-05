@@ -1,4 +1,0 @@
-Answer: 216
-History Answer: None
-Lower Bound: 216
-Upper Bound: 222

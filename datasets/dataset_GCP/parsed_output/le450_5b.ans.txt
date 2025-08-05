@@ -1,4 +1,0 @@
-Answer: 5
-History Answer: 5
-Lower Bound: 5
-Upper Bound: 5

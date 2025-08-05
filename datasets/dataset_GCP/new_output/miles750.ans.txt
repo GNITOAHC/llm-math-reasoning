@@ -1,0 +1,4 @@
+Answer: 31
+History Answer: 31
+Lower Bound: None
+Upper Bound: None
