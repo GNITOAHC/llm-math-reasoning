@@ -1,5 +1,5 @@
 import argparse
-from openai_reasoning.main import run
+from pure_reasoning.main import run
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="LLM Reasoning for math problems")
