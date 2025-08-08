@@ -1,4 +1,0 @@
-Answer: 72
-History Answer: 72
-Lower Bound: None
-Upper Bound: 72

@@ -1,0 +1,20 @@
+[METADATA]
+File: myciel3.col
+Description: SOURCE: Michael Trick (trick@cmu.edu) DESCRIPTION: Graph based on Mycielski transformation. Triangle free (clique number 2) but increasing coloring number
+
+[GCP_DATA_INFO]
+Type: GCP, Graph Coloring Problem
+Node: 11
+Edge: 20
+
+[ADJACENCY_List]
+2: [1]
+3: [2]
+4: [1]
+5: [3, 4]
+6: [2, 4]
+7: [1, 3]
+8: [2, 5]
+9: [1, 5]
+10: [3, 4]
+11: [6, 7, 8, 9, 10]

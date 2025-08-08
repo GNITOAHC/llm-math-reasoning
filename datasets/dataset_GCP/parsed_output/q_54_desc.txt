@@ -1,0 +1,26 @@
+Description:
+
+Following is a problem description of Graph Coloring Problem. It contains two section.
+
+1. Problem's data description
+2. The adjacency list representation of that specific problem.
+
+Please calculate the best solution for this problem, which is the minimum number of colors needed to color the graph such that no two adjacent nodes have the same color.
+
+
+[GCP_DATA_INFO]
+Type: GCP, Graph Coloring Problem
+Node: 11
+Edge: 20
+
+[ADJACENCY_List]
+2: [1]
+3: [2]
+4: [1]
+5: [3, 4]
+6: [2, 4]
+7: [1, 3]
+8: [2, 5]
+9: [1, 5]
+10: [3, 4]
+11: [6, 7, 8, 9, 10]

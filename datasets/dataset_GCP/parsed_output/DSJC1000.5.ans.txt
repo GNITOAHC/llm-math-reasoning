@@ -1,4 +1,0 @@
-Answer: 73
-History Answer: None
-Lower Bound: 73
-Upper Bound: 82
